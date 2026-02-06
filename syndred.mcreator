@@ -373,8 +373,8 @@
       "item.syndred.raw_soulsteel": "Raw Soulsteel",
       "item.syndred.anima_conflux": "Anima Conflux",
       "item.syndred.soulsteel_ore": "Deepslate Soulsteel Ore",
-      "item.syndred.deepslate_sphalerite_ore": "Deepslate Soulsteel Ore",
-      "item.syndred.sphalerite_ore": "Deepslate Soulsteel Ore",
+      "item.syndred.deepslate_sphalerite_ore": "Deepslate Sphalerite Ore",
+      "item.syndred.sphalerite_ore": "Deepslate Sphalerite Ore",
       "item.syndred.raw_sphalerite": "Raw Sphalerite",
       "item.syndred.soulsteel_ingot": "Soulsteel Ingot",
       "item.syndred.sphalerite_ingot": "Sphalerite Ingot",
@@ -383,8 +383,8 @@
       "painting.syndred.night_hunter_painting.author": "FishyGruel",
       "painting.syndred.weez_painting.title": "Weez Painting",
       "painting.syndred.weez_painting.author": "FishyGruel",
-      "item.syndred.raw_soulsteel_block": "Deepslate Soulsteel Ore",
-      "item.syndred.raw_sphalerite_block": "Deepslate Soulsteel Ore"
+      "item.syndred.raw_soulsteel_block": "Raw Soulsteel Block",
+      "item.syndred.raw_sphalerite_block": "Raw Sphalerite Block"
     }
   },
   "metadata": {
