@@ -1,5 +1,7 @@
 {
-  "mod_elements": [
+  "mod_elements": [],
+  "variable_elements": [],
+  "sound_elements": [
     {
       "name": "DeepslateSoulsteelOre",
       "type": "block",
@@ -184,7 +186,6 @@
       "src/main/java/net/mcreator/syndred/init/SyndredModBlockEntities.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModItems.java",
       "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/syndred/init/SyndredModTabs.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/syndred/SyndredMod.java"
     ]
