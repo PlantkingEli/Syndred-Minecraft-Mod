@@ -21,6 +21,7 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.syndred.init.SyndredModTabs;
+import net.mcreator.syndred.init.SyndredModMenus;
 import net.mcreator.syndred.init.SyndredModItems;
 import net.mcreator.syndred.init.SyndredModBlocks;
 import net.mcreator.syndred.init.SyndredModBlockEntities;
@@ -52,6 +53,7 @@ public class SyndredMod {
 		SyndredModBlockEntities.REGISTRY.register(modEventBus);
 		SyndredModItems.REGISTRY.register(modEventBus);
 		SyndredModTabs.REGISTRY.register(modEventBus);
+		SyndredModMenus.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

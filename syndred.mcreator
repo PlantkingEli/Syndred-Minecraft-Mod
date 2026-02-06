@@ -1,7 +1,5 @@
 {
-  "mod_elements": [],
-  "variable_elements": [],
-  "sound_elements": [
+  "mod_elements": [
     {
       "name": "DeepslateSoulsteelOre",
       "type": "block",
@@ -144,6 +142,20 @@
         ]
       },
       "path": "~/Ores/Sphalerite"
+    },
+    {
+      "name": "SunderGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunder_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/syndred/world/inventory/SunderGUIMenu.java",
+          "src/main/java/net/mcreator/syndred/client/gui/SunderGUIScreen.java"
+        ]
+      },
+      "path": "~/GUIs"
     }
   ],
   "variable_elements": [],
@@ -182,11 +194,16 @@
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/syndred/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/syndred/init/SyndredModMenus.java",
+      "src/main/java/net/mcreator/syndred/init/SyndredModScreens.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModBlocks.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModBlockEntities.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModItems.java",
       "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/syndred/init/SyndredModTabs.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/syndred/init/SyndredModModels.java",
       "src/main/java/net/mcreator/syndred/SyndredMod.java"
     ]
   },
@@ -219,6 +236,10 @@
             ]
           }
         ]
+      },
+      {
+        "name": "GUIs",
+        "children": []
       }
     ]
   },
