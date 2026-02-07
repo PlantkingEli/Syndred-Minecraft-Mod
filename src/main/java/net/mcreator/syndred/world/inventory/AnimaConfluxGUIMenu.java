@@ -32,7 +32,7 @@ public class AnimaConfluxGUIMenu extends AbstractContainerMenu implements Syndre
 	public final Map<String, Object> menuState = new HashMap<>() {
 		@Override
 		public Object put(String key, Object value) {
-			if (!this.containsKey(key) && this.size() >= 16)
+			if (!this.containsKey(key) && this.size() >= 23)
 				return null;
 			return super.put(key, value);
 		}
@@ -154,7 +154,7 @@ public class AnimaConfluxGUIMenu extends AbstractContainerMenu implements Syndre
 			private int x = AnimaConfluxGUIMenu.this.x;
 			private int y = AnimaConfluxGUIMenu.this.y;
 		}));
-		this.customSlots.put(13, this.addSlot(new SlotItemHandler(internal, 13, 163, 44) {
+		this.customSlots.put(13, this.addSlot(new SlotItemHandler(internal, 13, 134, 62) {
 			private final int slot = 13;
 			private int x = AnimaConfluxGUIMenu.this.x;
 			private int y = AnimaConfluxGUIMenu.this.y;
@@ -164,7 +164,7 @@ public class AnimaConfluxGUIMenu extends AbstractContainerMenu implements Syndre
 				return false;
 			}
 		}));
-		this.customSlots.put(14, this.addSlot(new SlotItemHandler(internal, 14, 163, 80) {
+		this.customSlots.put(14, this.addSlot(new SlotItemHandler(internal, 14, 162, 103) {
 			private final int slot = 14;
 			private int x = AnimaConfluxGUIMenu.this.x;
 			private int y = AnimaConfluxGUIMenu.this.y;

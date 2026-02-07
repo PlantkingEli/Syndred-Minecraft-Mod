@@ -90,6 +90,6 @@ public class AnimaConfluxJEITypeRecipeCategory implements IRecipeCategory<AnimaC
 		builder.addSlot(RecipeIngredientRole.INPUT, 91, 62).add(recipe.getIngredients().get(10));
 		builder.addSlot(RecipeIngredientRole.INPUT, 56, 98).add(recipe.getIngredients().get(11));
 		builder.addSlot(RecipeIngredientRole.INPUT, 19, 62).add(recipe.getIngredients().get(12));
-		builder.addSlot(RecipeIngredientRole.OUTPUT, 163, 44).add(actualOutputs.get(0));
+		builder.addSlot(RecipeIngredientRole.OUTPUT, 133, 62).add(actualOutputs.get(0));
 	}
 }

@@ -265,8 +265,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
-          "x": 276,
-          "y": 53,
+          "x": 247,
+          "y": 71,
           "locked": false
         }
       },
@@ -278,8 +278,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
-          "x": 276,
-          "y": 89,
+          "x": 275,
+          "y": 112,
           "locked": false
         }
       },
@@ -298,6 +298,76 @@
           "y": 17,
           "locked": false
         }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "soul_backround.png",
+          "use1Xscale": false,
+          "x": 276,
+          "y": 20,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "soul_notched_10_progress.png",
+          "use1Xscale": false,
+          "x": 276,
+          "y": 20,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "soul_progress_part.png",
+          "use1Xscale": false,
+          "x": 278,
+          "y": 22,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "soul_progress_part.png",
+          "use1Xscale": false,
+          "x": 278,
+          "y": 38,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "soul_progress_part.png",
+          "use1Xscale": false,
+          "x": 278,
+          "y": 54,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "soul_progress_part.png",
+          "use1Xscale": false,
+          "x": 278,
+          "y": 70,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "soul_progress_part.png",
+          "use1Xscale": false,
+          "x": 278,
+          "y": 86,
+          "locked": false
+        }
       }
     ],
     "gridSettings": {
@@ -305,7 +375,7 @@
       "sy": 18,
       "ox": 11,
       "oy": 15,
-      "snapOnGrid": true
+      "snapOnGrid": false
     }
   }
 }
