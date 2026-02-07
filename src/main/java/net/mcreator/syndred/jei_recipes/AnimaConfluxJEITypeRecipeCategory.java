@@ -20,8 +20,6 @@ import mezz.jei.api.gui.drawable.IDrawable;
 import mezz.jei.api.gui.builder.IRecipeLayoutBuilder;
 import mezz.jei.api.constants.VanillaTypes;
 
-
-
 import java.util.List;
 
 public class AnimaConfluxJEITypeRecipeCategory implements IRecipeCategory<AnimaConfluxJEITypeRecipe> {
