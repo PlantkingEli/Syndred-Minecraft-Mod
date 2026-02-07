@@ -369,7 +369,7 @@
     {
       "name": "AnimaConfluxJEIType",
       "type": "jeirecipetype",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "anima_conflux_jei_type",
       "metadata": {
