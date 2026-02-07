@@ -53,8 +53,6 @@ public class SyndredModTabs {
 			tabData.accept(SyndredModItems.SOULSTEEL_AXE.get());
 			tabData.accept(SyndredModItems.SOULSTEEL_SPADE.get());
 			tabData.accept(SyndredModItems.SOULSTEEL_HOE.get());
-		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
-			tabData.accept(SyndredModItems.CHARGER_SPAWN_EGG.get());
 		}
 	}
 }
