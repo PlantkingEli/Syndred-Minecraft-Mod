@@ -312,18 +312,11 @@
       {
         "type": "image",
         "data": {
-          "image": "soul_notched_10_progress.png",
-          "use1Xscale": false,
-          "x": 276,
-          "y": 20,
-          "locked": false
-        }
-      },
-      {
-        "type": "image",
-        "data": {
           "image": "soul_progress_part.png",
           "use1Xscale": false,
+          "displayCondition": {
+            "name": "AnimaConfluxProgrState0"
+          },
           "x": 278,
           "y": 22,
           "locked": false
@@ -334,6 +327,9 @@
         "data": {
           "image": "soul_progress_part.png",
           "use1Xscale": false,
+          "displayCondition": {
+            "name": "AnimaConfluxProgrState1"
+          },
           "x": 278,
           "y": 38,
           "locked": false
@@ -344,6 +340,9 @@
         "data": {
           "image": "soul_progress_part.png",
           "use1Xscale": false,
+          "displayCondition": {
+            "name": "AnimaConfluxProgrState2"
+          },
           "x": 278,
           "y": 54,
           "locked": false
@@ -354,6 +353,9 @@
         "data": {
           "image": "soul_progress_part.png",
           "use1Xscale": false,
+          "displayCondition": {
+            "name": "AnimaConfluxProgrState3"
+          },
           "x": 278,
           "y": 70,
           "locked": false
@@ -366,6 +368,16 @@
           "use1Xscale": false,
           "x": 278,
           "y": 86,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "soul_notched_10_progress.png",
+          "use1Xscale": false,
+          "x": 276,
+          "y": 20,
           "locked": false
         }
       }

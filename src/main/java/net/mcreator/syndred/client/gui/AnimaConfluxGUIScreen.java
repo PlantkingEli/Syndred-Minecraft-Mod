@@ -10,6 +10,10 @@ import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.syndred.world.inventory.AnimaConfluxGUIMenu;
+import net.mcreator.syndred.procedures.AnimaConfluxProgrState3Procedure;
+import net.mcreator.syndred.procedures.AnimaConfluxProgrState2Procedure;
+import net.mcreator.syndred.procedures.AnimaConfluxProgrState1Procedure;
+import net.mcreator.syndred.procedures.AnimaConfluxProgrState0Procedure;
 import net.mcreator.syndred.init.SyndredModScreens;
 
 public class AnimaConfluxGUIScreen extends AbstractContainerScreen<AnimaConfluxGUIMenu> implements SyndredModScreens.ScreenAccessor {
@@ -47,12 +51,20 @@ public class AnimaConfluxGUIScreen extends AbstractContainerScreen<AnimaConfluxG
 	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int mouseX, int mouseY) {
 		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("syndred:textures/screens/soul_backround.png"), this.leftPos + 162, this.topPos + 10, 0, 0, 18, 84, 18, 84);
-		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("syndred:textures/screens/soul_notched_10_progress.png"), this.leftPos + 162, this.topPos + 10, 0, 0, 18, 84, 18, 84);
-		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("syndred:textures/screens/soul_progress_part.png"), this.leftPos + 164, this.topPos + 12, 0, 0, 13, 16, 13, 16);
-		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("syndred:textures/screens/soul_progress_part.png"), this.leftPos + 164, this.topPos + 28, 0, 0, 13, 16, 13, 16);
-		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("syndred:textures/screens/soul_progress_part.png"), this.leftPos + 164, this.topPos + 44, 0, 0, 13, 16, 13, 16);
-		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("syndred:textures/screens/soul_progress_part.png"), this.leftPos + 164, this.topPos + 60, 0, 0, 13, 16, 13, 16);
+		if (AnimaConfluxProgrState0Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("syndred:textures/screens/soul_progress_part.png"), this.leftPos + 164, this.topPos + 12, 0, 0, 13, 16, 13, 16);
+		}
+		if (AnimaConfluxProgrState1Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("syndred:textures/screens/soul_progress_part.png"), this.leftPos + 164, this.topPos + 28, 0, 0, 13, 16, 13, 16);
+		}
+		if (AnimaConfluxProgrState2Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("syndred:textures/screens/soul_progress_part.png"), this.leftPos + 164, this.topPos + 44, 0, 0, 13, 16, 13, 16);
+		}
+		if (AnimaConfluxProgrState3Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("syndred:textures/screens/soul_progress_part.png"), this.leftPos + 164, this.topPos + 60, 0, 0, 13, 16, 13, 16);
+		}
 		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("syndred:textures/screens/soul_progress_part.png"), this.leftPos + 164, this.topPos + 76, 0, 0, 13, 16, 13, 16);
+		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("syndred:textures/screens/soul_notched_10_progress.png"), this.leftPos + 162, this.topPos + 10, 0, 0, 18, 84, 18, 84);
 	}
 
 	@Override

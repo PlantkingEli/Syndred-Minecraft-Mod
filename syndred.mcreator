@@ -663,19 +663,195 @@
       }
     },
     {
-      "name": "SmallShield",
-      "type": "item",
+      "name": "AnimaConfluxProgrState0",
+      "type": "procedure",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "small_shield",
+      "registry_name": "anima_conflux_progr_state_0",
       "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
         "files": [
-          "src/main/resources/assets/syndred/models/item/small_shield.json",
-          "src/main/resources/assets/syndred/items/small_shield.json",
-          "src/main/java/net/mcreator/syndred/item/SmallShieldItem.java",
-          "src/main/resources/assets/syndred/models/item/small_shield_gui.json"
+          "src/main/java/net/mcreator/syndred/procedures/AnimaConfluxProgrState0Procedure.java"
         ]
-      }
+      },
+      "path": "~/Procedures/GUIs/Anima Conflux/Progress Bar"
+    },
+    {
+      "name": "AnimaConfluxProgrState1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anima_conflux_progr_state_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/syndred/procedures/AnimaConfluxProgrState1Procedure.java"
+        ]
+      },
+      "path": "~/Procedures/GUIs/Anima Conflux/Progress Bar"
+    },
+    {
+      "name": "AnimaConfluxProgrState2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anima_conflux_progr_state_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/syndred/procedures/AnimaConfluxProgrState2Procedure.java"
+        ]
+      },
+      "path": "~/Procedures/GUIs/Anima Conflux/Progress Bar"
+    },
+    {
+      "name": "AnimaConfluxProgrState3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anima_conflux_progr_state_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/syndred/procedures/AnimaConfluxProgrState3Procedure.java"
+        ]
+      },
+      "path": "~/Procedures/GUIs/Anima Conflux/Progress Bar"
+    },
+    {
+      "name": "AnimaConfluxProgrState4",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anima_conflux_progr_state_4",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/syndred/procedures/AnimaConfluxProgrState4Procedure.java"
+        ]
+      },
+      "path": "~/Procedures/GUIs/Anima Conflux/Progress Bar"
+    },
+    {
+      "name": "AnimaConfluxOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anima_conflux_on_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/syndred/procedures/AnimaConfluxOnTickUpdateProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Functional/Anima Conflux"
     }
   ],
   "variable_elements": [],
@@ -775,8 +951,7 @@
       "item.syndred.sphalerite_block": "Soulsteel Block",
       "entity.syndred.charger": "Charger",
       "item.syndred.charger_spawn_egg": "Charger Spawn Egg",
-      "item.syndred.horn_lance": "Horn Lance",
-      "item.syndred.small_shield": "Small Shield"
+      "item.syndred.horn_lance": "Horn Lance"
     }
   },
   "metadata": {

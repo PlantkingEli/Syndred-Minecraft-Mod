@@ -24,7 +24,7 @@ import java.util.List;
 
 public class AnimaConfluxJEITypeRecipeCategory implements IRecipeCategory<AnimaConfluxJEITypeRecipe> {
 	public final static ResourceLocation UID = ResourceLocation.parse("syndred:anima_conflux_jei_type");
-	public final static ResourceLocation TEXTURE = ResourceLocation.parse("syndred:textures/screens/anima_conflux_jei_bg.png");
+	public final static ResourceLocation TEXTURE = ResourceLocation.parse("syndred:textures/screens/anima_conflux_gui_jei.png");
 	private final IDrawable background;
 	private final IDrawable icon;
 

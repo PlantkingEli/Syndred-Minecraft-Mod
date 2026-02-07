@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "jeirecipetype",
   "definition": {
-    "textureSelector": "anima_conflux_jei_bg.png",
+    "textureSelector": "anima_conflux_gui_jei.png",
     "width": 200,
     "height": 133,
     "icon": {
