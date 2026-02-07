@@ -33,13 +33,13 @@
       "registry_name": "anima_conflux",
       "metadata": {
         "files": [
-          "src/main/resources/assets/syndred/blockstates/anima_conflux.json",
-          "src/main/resources/assets/syndred/items/anima_conflux.json",
-          "src/main/resources/assets/syndred/models/block/anima_conflux.json",
           "src/main/java/net/mcreator/syndred/block/AnimaConfluxBlock.java",
-          "src/main/resources/assets/syndred/models/item/anima_conflux.json",
+          "src/main/resources/assets/syndred/items/anima_conflux.json",
           "src/main/java/net/mcreator/syndred/block/entity/AnimaConfluxBlockEntity.java",
-          "src/main/resources/data/syndred/loot_table/blocks/anima_conflux.json"
+          "src/main/resources/assets/syndred/models/item/anima_conflux.json",
+          "src/main/resources/assets/syndred/models/block/anima_conflux.json",
+          "src/main/resources/data/syndred/loot_table/blocks/anima_conflux.json",
+          "src/main/resources/assets/syndred/blockstates/anima_conflux.json"
         ]
       },
       "path": "~/Blocks/Functional/Anima Conflux"
