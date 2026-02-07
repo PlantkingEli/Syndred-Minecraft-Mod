@@ -1010,9 +1010,9 @@
   },
   "metadata": {
     "files": [
-      "src/main/java/net/mcreator/syndred/network/MenuStateUpdateMessage.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModMenus.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModScreens.java",
+      "src/main/java/net/mcreator/syndred/network/MenuStateUpdateMessage.java",
       "src/main/java/net/mcreator/syndred/jei_recipes/EmptyIngredient.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModJeiPlugin.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModRecipeTypes.java",
@@ -1021,13 +1021,15 @@
       "src/main/java/net/mcreator/syndred/init/SyndredModBlocks.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModBlockEntities.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModItems.java",
-      "src/main/java/net/mcreator/syndred/init/SyndredModEntities.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModEntityRenderers.java",
-      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/syndred/init/SyndredModEntities.java",
+      "src/main/java/net/mcreator/syndred/client/RenderUtils.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModTabs.java",
+      "src/main/java/net/mcreator/syndred/client/ItemArms.java",
+      "src/main/resources/pack.mcmeta",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/net/mcreator/syndred/init/SyndredModModels.java",
-      "src/main/java/net/mcreator/syndred/SyndredMod.java"
+      "src/main/java/net/mcreator/syndred/SyndredMod.java",
+      "src/main/java/net/mcreator/syndred/init/SyndredModModels.java"
     ]
   },
   "foldersRoot": {
