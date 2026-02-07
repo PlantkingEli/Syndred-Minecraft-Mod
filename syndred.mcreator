@@ -639,11 +639,11 @@
       "registry_name": "charger",
       "metadata": {
         "files": [
-          "src/main/resources/assets/syndred/models/item/charger_spawn_egg.json",
-          "src/main/resources/data/syndred/neoforge/biome_modifier/charger_biome_modifier.json",
-          "src/main/java/net/mcreator/syndred/entity/ChargerEntity.java",
           "src/main/resources/assets/syndred/items/charger_spawn_egg.json",
-          "src/main/java/net/mcreator/syndred/client/renderer/ChargerRenderer.java"
+          "src/main/resources/data/syndred/neoforge/biome_modifier/charger_biome_modifier.json",
+          "src/main/java/net/mcreator/syndred/client/renderer/ChargerRenderer.java",
+          "src/main/resources/assets/syndred/models/item/charger_spawn_egg.json",
+          "src/main/java/net/mcreator/syndred/entity/ChargerEntity.java"
         ]
       }
     },
@@ -657,25 +657,11 @@
         "files": [
           "src/main/java/net/mcreator/syndred/item/HornLanceItem.java",
           "src/main/resources/assets/syndred/models/item/horn_lance_gui.json",
-          "src/main/resources/assets/syndred/items/horn_lance.json",
-          "src/main/resources/assets/syndred/models/item/horn_lance.json"
+          "src/main/resources/assets/syndred/models/item/horn_lance.json",
+          "src/main/resources/assets/syndred/items/horn_lance.json"
         ]
-      }
-    },
-    {
-      "name": "SmallShield",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "small_shield",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/syndred/models/item/small_shield.json",
-          "src/main/resources/assets/syndred/items/small_shield.json",
-          "src/main/java/net/mcreator/syndred/item/SmallShieldItem.java",
-          "src/main/resources/assets/syndred/models/item/small_shield_gui.json"
-        ]
-      }
+      },
+      "path": "~/Items/Weapons"
     }
   ],
   "variable_elements": [],
@@ -775,8 +761,7 @@
       "item.syndred.sphalerite_block": "Soulsteel Block",
       "entity.syndred.charger": "Charger",
       "item.syndred.charger_spawn_egg": "Charger Spawn Egg",
-      "item.syndred.horn_lance": "Horn Lance",
-      "item.syndred.small_shield": "Small Shield"
+      "item.syndred.horn_lance": "Horn Lance"
     }
   },
   "metadata": {
@@ -794,7 +779,6 @@
       "src/main/java/net/mcreator/syndred/init/SyndredModItems.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModEntities.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModEntityRenderers.java",
-      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/syndred/init/SyndredModTabs.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/resources/pack.mcmeta",
@@ -901,26 +885,7 @@
       },
       {
         "name": "Procedures",
-        "children": [
-          {
-            "name": "Utils",
-            "children": []
-          },
-          {
-            "name": "GUIs",
-            "children": [
-              {
-                "name": "Anima Conflux",
-                "children": [
-                  {
-                    "name": "Progress Bar",
-                    "children": []
-                  }
-                ]
-              }
-            ]
-          }
-        ]
+        "children": []
       }
     ]
   },
