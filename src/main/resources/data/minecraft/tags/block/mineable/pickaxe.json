@@ -4,8 +4,11 @@
     "syndred:sphalerite_ore",
     "syndred:deepslate_sphalerite_ore",
     "syndred:raw_soulsteel_block",
+    "syndred:harsh_stone",
     "syndred:deepslate_soulsteel_ore",
     "syndred:raw_sphalerite_block",
-    "syndred:soulsteel_ore"
+    "syndred:dry_stone",
+    "syndred:soulsteel_ore",
+    "syndred:soulsteel_block"
   ]
 }

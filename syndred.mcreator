@@ -335,12 +335,222 @@
         ]
       },
       "path": "~/Ores/Soulsteel"
+    },
+    {
+      "name": "EchoDust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "echo_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/syndred/item/EchoDustItem.java",
+          "src/main/resources/assets/syndred/items/echo_dust.json",
+          "src/main/resources/assets/syndred/models/item/echo_dust.json"
+        ]
+      },
+      "path": "~/Items/Symbols"
+    },
+    {
+      "name": "SoulsteelShard",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulsteel_shard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/syndred/item/SoulsteelShardItem.java",
+          "src/main/resources/assets/syndred/items/soulsteel_shard.json",
+          "src/main/resources/assets/syndred/models/item/soulsteel_shard.json"
+        ]
+      },
+      "path": "~/Items/Symbols"
+    },
+    {
+      "name": "AnimaConfluxJEIType",
+      "type": "jeirecipetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anima_conflux_jei_type",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/syndred/jei_recipes/AnimaConfluxJEITypeRecipeCategory.java",
+          "src/main/java/net/mcreator/syndred/jei_recipes/AnimaConfluxJEITypeRecipe.java"
+        ]
+      },
+      "path": "~/Recipes/Anima Conflux"
+    },
+    {
+      "name": "SoulsteelSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulsteel_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/items/soulsteel_sword.json",
+          "src/main/resources/assets/syndred/models/item/soulsteel_sword.json",
+          "src/main/java/net/mcreator/syndred/item/SoulsteelSwordItem.java"
+        ]
+      },
+      "path": "~/Items/Weapons"
+    },
+    {
+      "name": "SoulsteelPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulsteel_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/items/soulsteel_pickaxe.json",
+          "src/main/java/net/mcreator/syndred/item/SoulsteelPickaxeItem.java",
+          "src/main/resources/assets/syndred/models/item/soulsteel_pickaxe.json"
+        ]
+      },
+      "path": "~/Items/Tools"
+    },
+    {
+      "name": "SoulsteelAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulsteel_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/syndred/item/SoulsteelAxeItem.java",
+          "src/main/resources/assets/syndred/models/item/soulsteel_axe.json",
+          "src/main/resources/assets/syndred/items/soulsteel_axe.json"
+        ]
+      },
+      "path": "~/Items/Tools"
+    },
+    {
+      "name": "SoulsteelSpade",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulsteel_spade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/items/soulsteel_spade.json",
+          "src/main/java/net/mcreator/syndred/item/SoulsteelSpadeItem.java",
+          "src/main/resources/assets/syndred/models/item/soulsteel_spade.json"
+        ]
+      },
+      "path": "~/Items/Tools"
+    },
+    {
+      "name": "SoulsteelHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulsteel_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/syndred/item/SoulsteelHoeItem.java",
+          "src/main/resources/assets/syndred/models/item/soulsteel_hoe.json",
+          "src/main/resources/assets/syndred/items/soulsteel_hoe.json"
+        ]
+      },
+      "path": "~/Items/Tools"
+    },
+    {
+      "name": "DryStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dry_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/worldgen/placed_feature/dry_stone.json",
+          "src/main/resources/data/syndred/loot_table/blocks/dry_stone.json",
+          "src/main/resources/assets/syndred/models/block/dry_stone.json",
+          "src/main/resources/data/syndred/neoforge/biome_modifier/dry_stone_biome_modifier.json",
+          "src/main/java/net/mcreator/syndred/block/DryStoneBlock.java",
+          "src/main/resources/assets/syndred/models/item/dry_stone.json",
+          "src/main/resources/data/syndred/worldgen/configured_feature/dry_stone.json",
+          "src/main/resources/assets/syndred/blockstates/dry_stone.json",
+          "src/main/resources/assets/syndred/items/dry_stone.json"
+        ]
+      },
+      "path": "~/Blocks/Generated"
+    },
+    {
+      "name": "HarshStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harsh_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/worldgen/placed_feature/harsh_stone.json",
+          "src/main/resources/data/syndred/neoforge/biome_modifier/harsh_stone_biome_modifier.json",
+          "src/main/resources/data/syndred/worldgen/configured_feature/harsh_stone.json",
+          "src/main/resources/assets/syndred/items/harsh_stone.json",
+          "src/main/java/net/mcreator/syndred/block/HarshStoneBlock.java",
+          "src/main/resources/assets/syndred/blockstates/harsh_stone.json",
+          "src/main/resources/data/syndred/loot_table/blocks/harsh_stone.json",
+          "src/main/resources/assets/syndred/models/item/harsh_stone.json",
+          "src/main/resources/assets/syndred/models/block/harsh_stone.json"
+        ]
+      },
+      "path": "~/Blocks/Generated"
+    },
+    {
+      "name": "SoulsteelBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulsteel_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/models/item/soulsteel_block.json",
+          "src/main/resources/assets/syndred/models/block/soulsteel_block.json",
+          "src/main/resources/assets/syndred/items/soulsteel_block.json",
+          "src/main/resources/assets/syndred/blockstates/soulsteel_block.json",
+          "src/main/java/net/mcreator/syndred/block/SoulsteelBlockBlock.java",
+          "src/main/resources/data/syndred/loot_table/blocks/soulsteel_block.json"
+        ]
+      },
+      "path": "~/Blocks/Block Versions"
+    },
+    {
+      "name": "SoulsteelBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulsteel_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/advancement/recipes/soulsteel_block_recipe.json",
+          "src/main/resources/data/syndred/recipe/soulsteel_block_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting"
+    },
+    {
+      "name": "SoulsteelIngotRecipeFromBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulsteel_ingot_recipe_from_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/recipe/soulsteel_ingot_recipe_from_block.json",
+          "src/main/resources/data/syndred/advancement/recipes/soulsteel_ingot_recipe_from_block.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:SoulsteelBlock",
+      "~CUSTOM:HarshStone",
+      "~CUSTOM:DryStone",
       "~CUSTOM:DeepslateSoulsteelOre",
       "~CUSTOM:SoulsteelOre",
       "~CUSTOM:RawSphaleriteBlock",
@@ -357,12 +567,43 @@
       "~CUSTOM:AnimaConflux"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:HarshStone",
       "~CUSTOM:RawSphaleriteBlock",
       "~CUSTOM:SphaleriteOre",
       "~CUSTOM:DeepslateSphaleriteOre"
     ],
     "ITEMS:minecraft:piglin_loved": [
       "~CUSTOM:SphaleriteIngot"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:SoulsteelSword"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:SoulsteelPickaxe"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:SoulsteelAxe"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:SoulsteelSpade"
+    ],
+    "ITEMS:syndred:soulsteel_spade_repair_items": [
+      "~CUSTOM:SoulsteelIngot"
+    ],
+    "ITEMS:syndred:soulsteel_axe_repair_items": [
+      "~CUSTOM:SoulsteelIngot"
+    ],
+    "ITEMS:syndred:soulsteel_pickaxe_repair_items": [
+      "~CUSTOM:SoulsteelIngot"
+    ],
+    "ITEMS:syndred:soulsteel_sword_repair_items": [
+      "~CUSTOM:SoulsteelIngot"
+    ],
+    "ITEMS:syndred:soulsteel_hoe_repair_items": [
+      "~CUSTOM:SoulsteelIngot"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:SoulsteelHoe"
     ]
   },
   "tab_element_order": {},
@@ -384,7 +625,17 @@
       "item.syndred.raw_soulsteel_block": "Raw Soulsteel Block",
       "item.syndred.raw_sphalerite_block": "Raw Sphalerite Block",
       "item.syndred.soulsteel_ore": "Deepslate Soulsteel Ore",
-      "item.syndred.deepslate_soulsteel_ore": "Deepslate Soulsteel Ore"
+      "item.syndred.deepslate_soulsteel_ore": "Deepslate Soulsteel Ore",
+      "item.syndred.echo_dust": "Echo Dust",
+      "item.syndred.soulsteel_shard": "Soulsteel Shard",
+      "item.syndred.soulsteel_sword": "Soulsteel Sword",
+      "item.syndred.soulsteel_pickaxe": "Soulsteel Pickaxe",
+      "item.syndred.soulsteel_axe": "Soulsteel Pickaxe",
+      "item.syndred.soulsteel_spade": "Soulsteel Pickaxe",
+      "item.syndred.soulsteel_hoe": "Soulsteel Pickaxe",
+      "item.syndred.dry_stone": "Dry Stone",
+      "item.syndred.harsh_stone": "Dry Stone",
+      "item.syndred.soulsteel_block": "Soulsteel Block"
     }
   },
   "metadata": {
@@ -392,6 +643,9 @@
       "src/main/java/net/mcreator/syndred/network/MenuStateUpdateMessage.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModMenus.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModScreens.java",
+      "src/main/java/net/mcreator/syndred/jei_recipes/EmptyIngredient.java",
+      "src/main/java/net/mcreator/syndred/init/SyndredModJeiPlugin.java",
+      "src/main/java/net/mcreator/syndred/init/SyndredModRecipeTypes.java",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
       "src/main/java/net/mcreator/syndred/init/SyndredModBrewingRecipes.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModBlocks.java",
@@ -431,6 +685,14 @@
                 "children": []
               }
             ]
+          },
+          {
+            "name": "Generated",
+            "children": []
+          },
+          {
+            "name": "Block Versions",
+            "children": []
           }
         ]
       },
@@ -451,6 +713,35 @@
           },
           {
             "name": "Smelting",
+            "children": []
+          },
+          {
+            "name": "Anima Conflux",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Items",
+        "children": [
+          {
+            "name": "Misc",
+            "children": []
+          },
+          {
+            "name": "Functional",
+            "children": []
+          },
+          {
+            "name": "Weapons",
+            "children": []
+          },
+          {
+            "name": "Symbols",
+            "children": []
+          },
+          {
+            "name": "Tools",
             "children": []
           }
         ]

@@ -265,8 +265,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
-          "x": 240,
-          "y": 71,
+          "x": 276,
+          "y": 53,
           "locked": false
         }
       },
@@ -279,7 +279,7 @@
           },
           "dropItemsWhenNotBound": false,
           "x": 276,
-          "y": 26,
+          "y": 89,
           "locked": false
         }
       },
@@ -294,7 +294,7 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 123,
+          "x": 186,
           "y": 17,
           "locked": false
         }

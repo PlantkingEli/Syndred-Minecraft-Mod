@@ -11,10 +11,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
-import net.mcreator.syndred.item.SphaleriteIngotItem;
-import net.mcreator.syndred.item.SoulsteelIngotItem;
-import net.mcreator.syndred.item.RawSphaleriteItem;
-import net.mcreator.syndred.item.RawSoulsteelItem;
+import net.mcreator.syndred.item.*;
 import net.mcreator.syndred.SyndredMod;
 
 import java.util.function.Function;
@@ -32,6 +29,16 @@ public class SyndredModItems {
 	public static final DeferredItem<Item> RAW_SPHALERITE_BLOCK;
 	public static final DeferredItem<Item> SOULSTEEL_ORE;
 	public static final DeferredItem<Item> DEEPSLATE_SOULSTEEL_ORE;
+	public static final DeferredItem<Item> ECHO_DUST;
+	public static final DeferredItem<Item> SOULSTEEL_SHARD;
+	public static final DeferredItem<Item> SOULSTEEL_SWORD;
+	public static final DeferredItem<Item> SOULSTEEL_PICKAXE;
+	public static final DeferredItem<Item> SOULSTEEL_AXE;
+	public static final DeferredItem<Item> SOULSTEEL_SPADE;
+	public static final DeferredItem<Item> SOULSTEEL_HOE;
+	public static final DeferredItem<Item> DRY_STONE;
+	public static final DeferredItem<Item> HARSH_STONE;
+	public static final DeferredItem<Item> SOULSTEEL_BLOCK;
 	static {
 		RAW_SOULSTEEL = register("raw_soulsteel", RawSoulsteelItem::new);
 		ANIMA_CONFLUX = block(SyndredModBlocks.ANIMA_CONFLUX);
@@ -44,6 +51,16 @@ public class SyndredModItems {
 		RAW_SPHALERITE_BLOCK = block(SyndredModBlocks.RAW_SPHALERITE_BLOCK);
 		SOULSTEEL_ORE = block(SyndredModBlocks.SOULSTEEL_ORE);
 		DEEPSLATE_SOULSTEEL_ORE = block(SyndredModBlocks.DEEPSLATE_SOULSTEEL_ORE);
+		ECHO_DUST = register("echo_dust", EchoDustItem::new);
+		SOULSTEEL_SHARD = register("soulsteel_shard", SoulsteelShardItem::new);
+		SOULSTEEL_SWORD = register("soulsteel_sword", SoulsteelSwordItem::new);
+		SOULSTEEL_PICKAXE = register("soulsteel_pickaxe", SoulsteelPickaxeItem::new);
+		SOULSTEEL_AXE = register("soulsteel_axe", SoulsteelAxeItem::new);
+		SOULSTEEL_SPADE = register("soulsteel_spade", SoulsteelSpadeItem::new);
+		SOULSTEEL_HOE = register("soulsteel_hoe", SoulsteelHoeItem::new);
+		DRY_STONE = block(SyndredModBlocks.DRY_STONE);
+		HARSH_STONE = block(SyndredModBlocks.HARSH_STONE);
+		SOULSTEEL_BLOCK = block(SyndredModBlocks.SOULSTEEL_BLOCK);
 	}
 
 	// Start of user code block custom items

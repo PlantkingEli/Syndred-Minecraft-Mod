@@ -23,6 +23,9 @@ public class SyndredModBlocks {
 	public static final DeferredBlock<Block> RAW_SPHALERITE_BLOCK;
 	public static final DeferredBlock<Block> SOULSTEEL_ORE;
 	public static final DeferredBlock<Block> DEEPSLATE_SOULSTEEL_ORE;
+	public static final DeferredBlock<Block> DRY_STONE;
+	public static final DeferredBlock<Block> HARSH_STONE;
+	public static final DeferredBlock<Block> SOULSTEEL_BLOCK;
 	static {
 		ANIMA_CONFLUX = register("anima_conflux", AnimaConfluxBlock::new);
 		DEEPSLATE_SPHALERITE_ORE = register("deepslate_sphalerite_ore", DeepslateSphaleriteOreBlock::new);
@@ -31,6 +34,9 @@ public class SyndredModBlocks {
 		RAW_SPHALERITE_BLOCK = register("raw_sphalerite_block", RawSphaleriteBlockBlock::new);
 		SOULSTEEL_ORE = register("soulsteel_ore", SoulsteelOreBlock::new);
 		DEEPSLATE_SOULSTEEL_ORE = register("deepslate_soulsteel_ore", DeepslateSoulsteelOreBlock::new);
+		DRY_STONE = register("dry_stone", DryStoneBlock::new);
+		HARSH_STONE = register("harsh_stone", HarshStoneBlock::new);
+		SOULSTEEL_BLOCK = register("soulsteel_block", SoulsteelBlockBlock::new);
 	}
 
 	// Start of user code block custom blocks

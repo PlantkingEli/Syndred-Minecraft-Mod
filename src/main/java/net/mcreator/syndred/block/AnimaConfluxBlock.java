@@ -1,5 +1,6 @@
 package net.mcreator.syndred.block;
 
+import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -8,12 +9,19 @@ import net.minecraft.world.level.block.EntityBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.inventory.AbstractContainerMenu;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.MenuProvider;
-import net.minecraft.world.Containers;
-import net.minecraft.server.level.ServerLevel;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.network.chat.Component;
+import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.syndred.world.inventory.AnimaConfluxGUIMenu;
 import net.mcreator.syndred.block.entity.AnimaConfluxBlockEntity;
+
+import io.netty.buffer.Unpooled;
 
 public class AnimaConfluxBlock extends Block implements EntityBlock {
 	public AnimaConfluxBlock(BlockBehaviour.Properties properties) {
@@ -23,6 +31,25 @@ public class AnimaConfluxBlock extends Block implements EntityBlock {
 	@Override
 	public int getLightBlock(BlockState state) {
 		return 15;
+	}
+
+	@Override
+	public InteractionResult useWithoutItem(BlockState blockstate, Level world, BlockPos pos, Player entity, BlockHitResult hit) {
+		super.useWithoutItem(blockstate, world, pos, entity, hit);
+		if (entity instanceof ServerPlayer player) {
+			player.openMenu(new MenuProvider() {
+				@Override
+				public Component getDisplayName() {
+					return Component.literal("Anima Conflux");
+				}
+
+				@Override
+				public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
+					return new AnimaConfluxGUIMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(pos));
+				}
+			}, pos);
+		}
+		return InteractionResult.SUCCESS;
 	}
 
 	@Override
@@ -41,11 +68,6 @@ public class AnimaConfluxBlock extends Block implements EntityBlock {
 		super.triggerEvent(state, world, pos, eventID, eventParam);
 		BlockEntity blockEntity = world.getBlockEntity(pos);
 		return blockEntity != null && blockEntity.triggerEvent(eventID, eventParam);
-	}
-
-	@Override
-	protected void affectNeighborsAfterRemoval(BlockState blockstate, ServerLevel world, BlockPos blockpos, boolean flag) {
-		Containers.updateNeighboursAfterDestroy(blockstate, world, blockpos);
 	}
 
 	@Override

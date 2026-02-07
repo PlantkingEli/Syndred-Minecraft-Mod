@@ -59,7 +59,7 @@ public class AnimaConfluxGUIScreen extends AbstractContainerScreen<AnimaConfluxG
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.syndred.anima_conflux_gui.label_anima_conflux"), 9, 7, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.syndred.anima_conflux_gui.label_anima_conflux"), 72, 7, -12829636, false);
 	}
 
 	@Override

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "syndred:soulsteel_ingot",
+    "syndred:soulsteel_ingot",
+    "syndred:soulsteel_ingot",
+    "syndred:soulsteel_ingot",
+    "syndred:soulsteel_ingot",
+    "syndred:soulsteel_ingot",
+    "syndred:soulsteel_ingot",
+    "syndred:soulsteel_ingot",
+    "syndred:soulsteel_ingot"
+  ],
+  "result": {
+    "id": "syndred:soulsteel_block",
+    "count": 1
+  }
+}

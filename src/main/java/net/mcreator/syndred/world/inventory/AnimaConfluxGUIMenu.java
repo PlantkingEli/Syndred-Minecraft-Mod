@@ -154,7 +154,7 @@ public class AnimaConfluxGUIMenu extends AbstractContainerMenu implements Syndre
 			private int x = AnimaConfluxGUIMenu.this.x;
 			private int y = AnimaConfluxGUIMenu.this.y;
 		}));
-		this.customSlots.put(13, this.addSlot(new SlotItemHandler(internal, 13, 127, 62) {
+		this.customSlots.put(13, this.addSlot(new SlotItemHandler(internal, 13, 163, 44) {
 			private final int slot = 13;
 			private int x = AnimaConfluxGUIMenu.this.x;
 			private int y = AnimaConfluxGUIMenu.this.y;
@@ -164,7 +164,7 @@ public class AnimaConfluxGUIMenu extends AbstractContainerMenu implements Syndre
 				return false;
 			}
 		}));
-		this.customSlots.put(14, this.addSlot(new SlotItemHandler(internal, 14, 163, 17) {
+		this.customSlots.put(14, this.addSlot(new SlotItemHandler(internal, 14, 163, 80) {
 			private final int slot = 14;
 			private int x = AnimaConfluxGUIMenu.this.x;
 			private int y = AnimaConfluxGUIMenu.this.y;
