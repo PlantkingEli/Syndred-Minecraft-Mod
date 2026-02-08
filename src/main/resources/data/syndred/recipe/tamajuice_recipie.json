@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:sugar",
+    "syndred:soul_shire_fruit",
+    "minecraft:honey_bottle"
+  ],
+  "result": {
+    "id": "syndred:tamajuice",
+    "count": 1
+  }
+}

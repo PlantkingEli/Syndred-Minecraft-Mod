@@ -49,6 +49,7 @@ public class SyndredModTabs {
 				tabData.accept(SyndredModBlocks.SOULSHIRE_WOOD.get().asItem());
 				tabData.accept(SyndredModBlocks.STRIPPED_SOULSHIRE_LOG.get().asItem());
 				tabData.accept(SyndredModBlocks.STRIPPED_SOULSHIRE_WOOD.get().asItem());
+				tabData.accept(SyndredModItems.TAMAJUICE.get());
 			}).build());
 
 	@SubscribeEvent
@@ -72,6 +73,7 @@ public class SyndredModTabs {
 			tabData.accept(SyndredModBlocks.STRIPPED_SOULSHIRE_WOOD.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(SyndredModItems.SOUL_SHIRE_FRUIT.get());
+			tabData.accept(SyndredModItems.TAMAJUICE.get());
 		}
 	}
 }

@@ -55,6 +55,7 @@ public class SyndredModItems {
 	public static final DeferredItem<Item> SOULSHIRE_WOOD;
 	public static final DeferredItem<Item> STRIPPED_SOULSHIRE_LOG;
 	public static final DeferredItem<Item> STRIPPED_SOULSHIRE_WOOD;
+	public static final DeferredItem<Item> TAMAJUICE;
 	static {
 		RAW_SOULSTEEL = register("raw_soulsteel", RawSoulsteelItem::new);
 		ANIMA_CONFLUX = block(SyndredModBlocks.ANIMA_CONFLUX);
@@ -92,6 +93,7 @@ public class SyndredModItems {
 		SOULSHIRE_WOOD = block(SyndredModBlocks.SOULSHIRE_WOOD);
 		STRIPPED_SOULSHIRE_LOG = block(SyndredModBlocks.STRIPPED_SOULSHIRE_LOG);
 		STRIPPED_SOULSHIRE_WOOD = block(SyndredModBlocks.STRIPPED_SOULSHIRE_WOOD);
+		TAMAJUICE = register("tamajuice", TamajuiceItem::new);
 	}
 
 	// Start of user code block custom items

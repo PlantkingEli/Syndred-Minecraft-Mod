@@ -1,5 +1,5 @@
 {
-  "item_group.syndred.syndred_tab": "Syndred Tab",
+  "item_group.syndred.syndred_tab": "Syndred",
   "item.syndred.raw_soulsteel": "Raw Soulsteel",
   "item.syndred.anima_conflux": "Anima Conflux",
   "item.syndred.deepslate_sphalerite_ore": "Deepslate Sphalerite Ore",
@@ -30,7 +30,7 @@
   "entity.syndred.charger": "Charger",
   "item.syndred.charger_spawn_egg": "Charger Spawn Egg",
   "item.syndred.horn_lance": "Horn Lance",
-  "item.syndred.egg_incubator": "egg incubator",
+  "item.syndred.egg_incubator": "Egg Incubator",
   "item.syndred.soulshire_log": "Soulshire Log",
   "item.syndred.soulshire_leaves": "Soulshire Leaves",
   "item.syndred.soulshire_sapling": "Soulshire Sapling",
@@ -38,11 +38,11 @@
   "item.syndred.soulshire_vines_end": "Soulshire Vines",
   "item.syndred.soulshire_vines_fruiting": "Soulshire Vines",
   "item.syndred.soulshire_vines_end_fruiting": "Soulshire Vines",
-  "item.syndred.soul_shire_fruit": "tamaberry",
+  "item.syndred.soul_shire_fruit": "Tamaberry",
   "item.syndred.soulshire_wood": "Soulshire Wood",
   "item.syndred.stripped_soulshire_log": "Stripped Soulshire Log",
   "item.syndred.stripped_soulshire_wood": "Stripped Soulshire Wood",
-  "item.syndred.tamajuice": "tamajuice",
+  "item.syndred.tamajuice": "Tamajuice",
   "advancements.tamajuice_advancement.descr": "craft a bottle of tamajuice from honey, sugar, and tamaberries",
   "advancements.tamajuice_advancement.title": "Love in a Bottle"
 }
