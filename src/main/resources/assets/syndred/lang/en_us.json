@@ -42,5 +42,9 @@
   "item.syndred.soulshire_wood": "Soulshire Wood",
   "item.syndred.stripped_soulshire_log": "Stripped Soulshire Log",
   "item.syndred.stripped_soulshire_wood": "Stripped Soulshire Wood",
-  "biome.syndred.soulshire_forest": "Soulshire Forest"
+  "biome.syndred.soulshire_forest": "Soulshire Forest",
+  "item.syndred.leather_soulsteel_boots": "Leather Soulsteel Boots",
+  "item.syndred.leather_soulsteel_leggings": "Leather Soulsteel Leggings",
+  "item.syndred.leather_soulsteel_chestplate": "Leather Soulsteel Chestplate",
+  "item.syndred.leather_soulsteel_helmet": "Leather Soulsteel Helmet"
 }

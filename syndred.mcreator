@@ -612,8 +612,8 @@
       "registry_name": "soulsteel_axe_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/syndred/recipe/soulsteel_axe_recipe.json",
-          "src/main/resources/data/syndred/advancement/recipes/soulsteel_axe_recipe.json"
+          "src/main/resources/data/syndred/advancement/recipes/soulsteel_axe_recipe.json",
+          "src/main/resources/data/syndred/recipe/soulsteel_axe_recipe.json"
         ]
       },
       "path": "~/Recipes/Crafting/Soulsteel Stuff"
@@ -640,11 +640,11 @@
       "registry_name": "charger",
       "metadata": {
         "files": [
-          "src/main/resources/assets/syndred/items/charger_spawn_egg.json",
-          "src/main/resources/data/syndred/neoforge/biome_modifier/charger_biome_modifier.json",
-          "src/main/java/net/mcreator/syndred/client/renderer/ChargerRenderer.java",
           "src/main/resources/assets/syndred/models/item/charger_spawn_egg.json",
-          "src/main/java/net/mcreator/syndred/entity/ChargerEntity.java"
+          "src/main/resources/data/syndred/neoforge/biome_modifier/charger_biome_modifier.json",
+          "src/main/java/net/mcreator/syndred/entity/ChargerEntity.java",
+          "src/main/resources/assets/syndred/items/charger_spawn_egg.json",
+          "src/main/java/net/mcreator/syndred/client/renderer/ChargerRenderer.java"
         ]
       },
       "path": "~/Entities"
@@ -932,12 +932,12 @@
       "registry_name": "soulshire_leaves",
       "metadata": {
         "files": [
+          "src/main/resources/assets/syndred/models/item/soulshire_leaves.json",
+          "src/main/resources/assets/syndred/blockstates/soulshire_leaves.json",
           "src/main/resources/assets/syndred/models/block/soulshire_leaves.json",
           "src/main/resources/assets/syndred/items/soulshire_leaves.json",
-          "src/main/resources/assets/syndred/models/item/soulshire_leaves.json",
-          "src/main/java/net/mcreator/syndred/block/SoulshireLeavesBlock.java",
-          "src/main/resources/assets/syndred/blockstates/soulshire_leaves.json",
-          "src/main/resources/data/syndred/loot_table/blocks/soulshire_leaves.json"
+          "src/main/resources/data/syndred/loot_table/blocks/soulshire_leaves.json",
+          "src/main/java/net/mcreator/syndred/block/SoulshireLeavesBlock.java"
         ]
       },
       "path": "~/Blocks/Natural"
@@ -950,12 +950,12 @@
       "registry_name": "soulshire_sapling",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/syndred/block/SoulshireSaplingBlock.java",
           "src/main/resources/assets/syndred/models/block/soulshire_sapling.json",
+          "src/main/java/net/mcreator/syndred/block/SoulshireSaplingBlock.java",
           "src/main/resources/assets/syndred/items/soulshire_sapling.json",
-          "src/main/resources/assets/syndred/blockstates/soulshire_sapling.json",
           "src/main/resources/data/syndred/loot_table/blocks/soulshire_sapling.json",
-          "src/main/resources/assets/syndred/models/item/soulshire_sapling.json"
+          "src/main/resources/assets/syndred/models/item/soulshire_sapling.json",
+          "src/main/resources/assets/syndred/blockstates/soulshire_sapling.json"
         ]
       },
       "path": "~/Blocks/Natural"
@@ -1022,12 +1022,12 @@
       "registry_name": "soulshire_vines_end_fruiting",
       "metadata": {
         "files": [
+          "src/main/resources/assets/syndred/models/block/soulshire_vines_end_fruiting.json",
+          "src/main/resources/assets/syndred/models/item/soulshire_vines_end_fruiting.json",
           "src/main/resources/data/syndred/loot_table/blocks/soulshire_vines_end_fruiting.json",
           "src/main/java/net/mcreator/syndred/block/SoulshireVinesEndFruitingBlock.java",
-          "src/main/resources/assets/syndred/models/item/soulshire_vines_end_fruiting.json",
-          "src/main/resources/assets/syndred/models/block/soulshire_vines_end_fruiting.json",
-          "src/main/resources/assets/syndred/blockstates/soulshire_vines_end_fruiting.json",
-          "src/main/resources/assets/syndred/items/soulshire_vines_end_fruiting.json"
+          "src/main/resources/assets/syndred/items/soulshire_vines_end_fruiting.json",
+          "src/main/resources/assets/syndred/blockstates/soulshire_vines_end_fruiting.json"
         ]
       },
       "path": "~/Blocks/Natural"
@@ -1071,9 +1071,9 @@
       "registry_name": "soul_shire_fruit",
       "metadata": {
         "files": [
+          "src/main/resources/assets/syndred/items/soul_shire_fruit.json",
           "src/main/java/net/mcreator/syndred/item/SoulShireFruitItem.java",
-          "src/main/resources/assets/syndred/models/item/soul_shire_fruit.json",
-          "src/main/resources/assets/syndred/items/soul_shire_fruit.json"
+          "src/main/resources/assets/syndred/models/item/soul_shire_fruit.json"
         ]
       },
       "path": "~/Blocks/Natural"
@@ -1215,43 +1215,54 @@
       "path": "~/FeaturesAndStructures"
     },
     {
-      "name": "Tamajuice",
-      "type": "item",
+      "name": "SoulshireForest",
+      "type": "biome",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tamajuice",
+      "registry_name": "soulshire_forest",
       "metadata": {
         "files": [
-          "src/main/resources/assets/syndred/items/tamajuice.json",
-          "src/main/java/net/mcreator/syndred/item/TamajuiceItem.java",
-          "src/main/resources/assets/syndred/models/item/tamajuice.json"
+          "src/main/resources/data/syndred/worldgen/biome/soulshire_forest.json"
         ]
-      }
+      },
+      "path": "~/Biomes"
     },
     {
-      "name": "TamajuiceRecipie",
-      "type": "recipe",
+      "name": "LeatherSoulsteel",
+      "type": "armor",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tamajuice_recipie",
+      "registry_name": "leather_soulsteel",
       "metadata": {
         "files": [
-          "src/main/resources/data/syndred/recipe/tamajuice_recipie.json",
-          "src/main/resources/data/syndred/advancement/recipes/tamajuice_recipie.json"
+          "src/main/resources/assets/syndred/models/item/leather_soulsteel_leggings.json",
+          "src/main/resources/assets/syndred/models/item/leather_soulsteel_helmet.json",
+          "src/main/resources/assets/syndred/items/leather_soulsteel_helmet.json",
+          "src/main/resources/assets/syndred/items/leather_soulsteel_leggings.json",
+          "src/main/resources/assets/syndred/items/leather_soulsteel_boots.json",
+          "src/main/java/net/mcreator/syndred/item/LeatherSoulsteelItem.java",
+          "src/main/resources/assets/syndred/equipment/leather_soulsteel.json",
+          "src/main/resources/assets/syndred/models/item/leather_soulsteel_chestplate.json",
+          "src/main/resources/assets/syndred/items/leather_soulsteel_chestplate.json",
+          "src/main/java/net/mcreator/syndred/client/renderer/item/LeatherSoulsteelArmor.java",
+          "src/main/resources/assets/syndred/models/item/leather_soulsteel_boots.json"
         ]
-      }
+      },
+      "path": "~/Armors"
     },
     {
-      "name": "TamajuiceAdvancement",
-      "type": "achievement",
+      "name": "EggIncubatorGUI",
+      "type": "gui",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tamajuice_advancement",
+      "registry_name": "egg_incubator_gui",
       "metadata": {
         "files": [
-          "src/main/resources/data/syndred/advancement/tamajuice_advancement.json"
+          "src/main/java/net/mcreator/syndred/client/gui/EggIncubatorGUIScreen.java",
+          "src/main/java/net/mcreator/syndred/world/inventory/EggIncubatorGUIMenu.java"
         ]
-      }
+      },
+      "path": "~/GUIs"
     }
   ],
   "variable_elements": [],
@@ -1347,60 +1358,27 @@
       "CUSTOM:SoulshireVinesEnd",
       "CUSTOM:SoulshireVinesFruiting",
       "CUSTOM:SoulshireVinesEndFruiting"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:LeatherSoulsteel.helmet"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:LeatherSoulsteel.body"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:LeatherSoulsteel.legs"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:LeatherSoulsteel.boots"
+    ],
+    "ITEMS:syndred:leather_soulsteel_repair_items": [
+      "~CUSTOM:SoulsteelIngot"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
       "item_group.syndred.syndred_tab": "Syndred Tab",
-      "item.syndred.raw_soulsteel": "Raw Soulsteel",
-      "item.syndred.anima_conflux": "Anima Conflux",
-      "item.syndred.deepslate_sphalerite_ore": "Deepslate Sphalerite Ore",
-      "item.syndred.sphalerite_ore": "Deepslate Sphalerite Ore",
-      "item.syndred.raw_sphalerite": "Raw Sphalerite",
-      "item.syndred.soulsteel_ingot": "Soulsteel Ingot",
-      "item.syndred.sphalerite_ingot": "Sphalerite Ingot",
-      "gui.syndred.anima_conflux_gui.label_anima_conflux": "Anima Conflux",
-      "painting.syndred.night_hunter_painting.title": "Night Hunter Painting",
-      "painting.syndred.night_hunter_painting.author": "FishyGruel",
-      "painting.syndred.weez_painting.title": "Weez Painting",
-      "painting.syndred.weez_painting.author": "FishyGruel",
-      "item.syndred.raw_soulsteel_block": "Raw Soulsteel Block",
-      "item.syndred.raw_sphalerite_block": "Raw Sphalerite Block",
-      "item.syndred.soulsteel_ore": "Deepslate Soulsteel Ore",
-      "item.syndred.deepslate_soulsteel_ore": "Deepslate Soulsteel Ore",
-      "item.syndred.echo_dust": "Echo Dust",
-      "item.syndred.soulsteel_shard": "Soulsteel Shard",
-      "item.syndred.soulsteel_sword": "Soulsteel Sword",
-      "item.syndred.soulsteel_pickaxe": "Soulsteel Pickaxe",
-      "item.syndred.soulsteel_axe": "Soulsteel Pickaxe",
-      "item.syndred.soulsteel_spade": "Soulsteel Pickaxe",
-      "item.syndred.soulsteel_hoe": "Soulsteel Pickaxe",
-      "item.syndred.dry_stone": "Dry Stone",
-      "item.syndred.harsh_stone": "Dry Stone",
-      "item.syndred.soulsteel_block": "Soulsteel Block",
-      "item.syndred.sphalerite_block": "Soulsteel Block",
-      "entity.syndred.charger": "Charger",
-      "item.syndred.charger_spawn_egg": "Charger Spawn Egg",
-      "item.syndred.horn_lance": "Horn Lance",
-      "item.syndred.egg_incubator": "egg incubator",
-      "item.syndred.soulshire_log": "Soulshire Log",
-      "item.syndred.soulshire_leaves": "Soulshire Leaves",
-      "item.syndred.soulshire_sapling": "Soulshire Sapling",
-      "item.syndred.soulshire_vines": "Soulshire Vines",
-      "item.syndred.soulshire_vines_end": "Soulshire Vines",
-      "item.syndred.soulshire_vines_fruiting": "Soulshire Vines",
-      "item.syndred.soulshire_vines_end_fruiting": "Soulshire Vines",
-      "item.syndred.soul_shire_fruit": "tamaberry",
-      "item.syndred.soulshire_wood": "Soulshire Wood",
-      "item.syndred.stripped_soulshire_log": "Stripped Soulshire Log",
-      "item.syndred.stripped_soulshire_wood": "Stripped Soulshire Wood",
-      "item.syndred.tamajuice": "tamajuice",
-      "advancements.tamajuice_advancement.descr": "craft a bottle of tamajuice from honey, sugar, and tamaberries",
-      "advancements.tamajuice_advancement.title": "Love in a Bottle"
-    },
-    "pl_pl": {
-      "item_group.syndred.syndred_tab": "Syndred",
       "item.syndred.raw_soulsteel": "Raw Soulsteel",
       "item.syndred.anima_conflux": "Anima Conflux",
       "item.syndred.deepslate_sphalerite_ore": "Deepslate Sphalerite Ore",
@@ -1439,13 +1417,15 @@
       "item.syndred.soulshire_vines_end": "Soulshire Vines",
       "item.syndred.soulshire_vines_fruiting": "Soulshire Vines",
       "item.syndred.soulshire_vines_end_fruiting": "Soulshire Vines",
-      "item.syndred.soul_shire_fruit": "Tamaberry",
+      "item.syndred.soul_shire_fruit": "Soul Shire Fruit",
       "item.syndred.soulshire_wood": "Soulshire Wood",
       "item.syndred.stripped_soulshire_log": "Stripped Soulshire Log",
       "item.syndred.stripped_soulshire_wood": "Stripped Soulshire Wood",
-      "item.syndred.tamajuice": "Tamajuice",
-      "advancements.tamajuice_advancement.descr": "craft a bottle of tamajuice from honey, sugar, and tamaberries",
-      "advancements.tamajuice_advancement.title": "Love in a Bottle"
+      "biome.syndred.soulshire_forest": "Soulshire Forest",
+      "item.syndred.leather_soulsteel_boots": "Leather Soulsteel Boots",
+      "item.syndred.leather_soulsteel_leggings": "Leather Soulsteel Leggings",
+      "item.syndred.leather_soulsteel_chestplate": "Leather Soulsteel Chestplate",
+      "item.syndred.leather_soulsteel_helmet": "Leather Soulsteel Helmet"
     }
   },
   "metadata": {
@@ -1455,10 +1435,10 @@
       "src/main/java/net/mcreator/syndred/world/features/configurations/StructureFeatureConfiguration.java",
       "src/main/java/net/mcreator/syndred/world/features/StructureFeature.java",
       "src/main/java/net/mcreator/syndred/network/MenuStateUpdateMessage.java",
-      "src/main/java/net/mcreator/syndred/init/SyndredModScreens.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModMenus.java",
-      "src/main/java/net/mcreator/syndred/init/SyndredModJeiPlugin.java",
+      "src/main/java/net/mcreator/syndred/init/SyndredModScreens.java",
       "src/main/java/net/mcreator/syndred/jei_recipes/EmptyIngredient.java",
+      "src/main/java/net/mcreator/syndred/init/SyndredModJeiPlugin.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModRecipeTypes.java",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
       "src/main/java/net/mcreator/syndred/init/SyndredModBrewingRecipes.java",
@@ -1467,11 +1447,12 @@
       "src/main/java/net/mcreator/syndred/init/SyndredModItems.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModEntities.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModEntityRenderers.java",
-      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/syndred/init/SyndredModTabs.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/syndred/init/SyndredModModels.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/resources/syndred.mixins.json",
       "src/main/java/net/mcreator/syndred/SyndredMod.java"
     ]
   },

@@ -16,6 +16,9 @@
     "creativeTabs": [
       {
         "value": "COMBAT"
+      },
+      {
+        "value": "CUSTOM:SyndredTab"
       }
     ],
     "efficiency": 4.0,

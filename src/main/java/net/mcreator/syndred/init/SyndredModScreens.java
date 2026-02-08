@@ -9,6 +9,7 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
 import net.mcreator.syndred.client.gui.SunderGUIScreen;
+import net.mcreator.syndred.client.gui.EggIncubatorGUIScreen;
 import net.mcreator.syndred.client.gui.AnimaConfluxGUIScreen;
 
 @EventBusSubscriber(Dist.CLIENT)
@@ -17,6 +18,7 @@ public class SyndredModScreens {
 	public static void clientLoad(RegisterMenuScreensEvent event) {
 		event.register(SyndredModMenus.SUNDER_GUI.get(), SunderGUIScreen::new);
 		event.register(SyndredModMenus.ANIMA_CONFLUX_GUI.get(), AnimaConfluxGUIScreen::new);
+		event.register(SyndredModMenus.EGG_INCUBATOR_GUI.get(), EggIncubatorGUIScreen::new);
 	}
 
 	public interface ScreenAccessor {

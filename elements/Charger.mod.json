@@ -23,9 +23,9 @@
     },
     "modelLayers": [],
     "animations": [],
-    "modelWidth": 0.9,
-    "modelHeight": 1.4000000000000001,
-    "modelShadowSize": 0.7000000000000001,
+    "modelWidth": 0.6,
+    "modelHeight": 1.8,
+    "modelShadowSize": 0.7,
     "mountedYOffset": -0.4,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
@@ -40,6 +40,9 @@
     "creativeTabs": [
       {
         "value": "MISC"
+      },
+      {
+        "value": "CUSTOM:SyndredTab"
       }
     ],
     "isBoss": false,
@@ -140,7 +143,11 @@
     "mobSpawningType": "creature",
     "minNumberOfMobsPerGroup": 4,
     "maxNumberOfMobsPerGroup": 4,
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:SoulshireForest"
+      }
+    ],
     "spawnInDungeons": false,
     "raidSpawnsCount": [
       4,
