@@ -3,6 +3,7 @@
 
 BRANCH="master"
 git pull --no-rebase origin master
+git fetch origin master
 
 git add -A
 git commit -m "Auto-sync: $(date +'%Y-%m-%d %H:%M:%S')"
