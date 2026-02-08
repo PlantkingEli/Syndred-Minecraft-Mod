@@ -1,26 +1,13 @@
-@echo off
 set BRANCH=master
+git pull --no-rebase origin master
 
-echo 🚀 Starting Windows MCreator Sync...
-
-:: 1. Clear any stuck rebases or merges
-git rebase --abort >nul 2>&1
-git merge --abort >nul 2>&1
-
-:: 2. Ensure we are on master
-git checkout %BRANCH%
-
-:: 3. Stage and commit
 git add -A
-git commit -m "Auto-sync (Windows): %date% %time%"
+git commit -m "Auto-sync: Windows"
 
-:: 4. Pull and favor local changes in case of conflict
-echo 📥 Pulling updates from GitHub...
-git pull origin %BRANCH% --rebase -X ours
+git rebase --abort
+git merge --abort
 
-:: 5. Push
-echo 📤 Pushing changes...
-git push origin %BRANCH%
+git add -A
+git commit -m "Auto-sync: Windows"
 
-echo ✨ Sync complete!
-pause
+git push origin master

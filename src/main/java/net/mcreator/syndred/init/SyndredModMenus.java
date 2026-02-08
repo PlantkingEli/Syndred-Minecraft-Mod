@@ -17,6 +17,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.syndred.world.inventory.SunderGUIMenu;
+import net.mcreator.syndred.world.inventory.EggIncubatorGUIMenu;
 import net.mcreator.syndred.world.inventory.AnimaConfluxGUIMenu;
 import net.mcreator.syndred.network.MenuStateUpdateMessage;
 import net.mcreator.syndred.SyndredMod;
@@ -27,6 +28,7 @@ public class SyndredModMenus {
 	public static final DeferredRegister<MenuType<?>> REGISTRY = DeferredRegister.create(Registries.MENU, SyndredMod.MODID);
 	public static final DeferredHolder<MenuType<?>, MenuType<SunderGUIMenu>> SUNDER_GUI = REGISTRY.register("sunder_gui", () -> IMenuTypeExtension.create(SunderGUIMenu::new));
 	public static final DeferredHolder<MenuType<?>, MenuType<AnimaConfluxGUIMenu>> ANIMA_CONFLUX_GUI = REGISTRY.register("anima_conflux_gui", () -> IMenuTypeExtension.create(AnimaConfluxGUIMenu::new));
+	public static final DeferredHolder<MenuType<?>, MenuType<EggIncubatorGUIMenu>> EGG_INCUBATOR_GUI = REGISTRY.register("egg_incubator_gui", () -> IMenuTypeExtension.create(EggIncubatorGUIMenu::new));
 
 	public interface MenuAccessor {
 		Map<String, Object> getMenuState();
