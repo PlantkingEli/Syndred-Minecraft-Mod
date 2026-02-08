@@ -32,11 +32,7 @@ public class EggIncubatorGUIMenu extends AbstractContainerMenu implements Syndre
 	public final Map<String, Object> menuState = new HashMap<>() {
 		@Override
 		public Object put(String key, Object value) {
-<<<<<<< HEAD
 			if (!this.containsKey(key) && this.size() >= 4)
-=======
-			if (!this.containsKey(key) && this.size() >= 2)
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
 				return null;
 			return super.put(key, value);
 		}
@@ -56,11 +52,7 @@ public class EggIncubatorGUIMenu extends AbstractContainerMenu implements Syndre
 		super(SyndredModMenus.EGG_INCUBATOR_GUI.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level();
-<<<<<<< HEAD
 		this.internal = new ItemStackHandler(3);
-=======
-		this.internal = new ItemStackHandler(2);
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
 		BlockPos pos = null;
 		if (extraData != null) {
 			pos = extraData.readBlockPos();
@@ -97,25 +89,16 @@ public class EggIncubatorGUIMenu extends AbstractContainerMenu implements Syndre
 				}
 			}
 		}
-<<<<<<< HEAD
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 17, 27) {
-=======
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 18, 30) {
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 17, 28) {
 			private final int slot = 0;
 			private int x = EggIncubatorGUIMenu.this.x;
 			private int y = EggIncubatorGUIMenu.this.y;
 		}));
-<<<<<<< HEAD
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 37, 36) {
-=======
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 38, 38) {
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
 			private final int slot = 1;
 			private int x = EggIncubatorGUIMenu.this.x;
 			private int y = EggIncubatorGUIMenu.this.y;
 		}));
-<<<<<<< HEAD
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 130, 36) {
 			private final int slot = 2;
 			private int x = EggIncubatorGUIMenu.this.x;
@@ -126,8 +109,6 @@ public class EggIncubatorGUIMenu extends AbstractContainerMenu implements Syndre
 				return false;
 			}
 		}));
-=======
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
 				this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, 0 + 84 + si * 18));
@@ -155,7 +136,6 @@ public class EggIncubatorGUIMenu extends AbstractContainerMenu implements Syndre
 		if (slot != null && slot.hasItem()) {
 			ItemStack itemstack1 = slot.getItem();
 			itemstack = itemstack1.copy();
-<<<<<<< HEAD
 			if (index < 3) {
 				if (!this.moveItemStackTo(itemstack1, 3, this.slots.size(), true))
 					return ItemStack.EMPTY;
@@ -166,18 +146,6 @@ public class EggIncubatorGUIMenu extends AbstractContainerMenu implements Syndre
 						return ItemStack.EMPTY;
 				} else {
 					if (!this.moveItemStackTo(itemstack1, 3, 3 + 27, false))
-=======
-			if (index < 2) {
-				if (!this.moveItemStackTo(itemstack1, 2, this.slots.size(), true))
-					return ItemStack.EMPTY;
-				slot.onQuickCraft(itemstack1, itemstack);
-			} else if (!this.moveItemStackTo(itemstack1, 0, 2, false)) {
-				if (index < 2 + 27) {
-					if (!this.moveItemStackTo(itemstack1, 2 + 27, this.slots.size(), true))
-						return ItemStack.EMPTY;
-				} else {
-					if (!this.moveItemStackTo(itemstack1, 2, 2 + 27, false))
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
 						return ItemStack.EMPTY;
 				}
 				return ItemStack.EMPTY;

@@ -44,9 +44,6 @@ public class SyndredModTabs {
 				tabData.accept(SyndredModBlocks.HARSH_STONE.get().asItem());
 				tabData.accept(SyndredModBlocks.SOULSTEEL_BLOCK.get().asItem());
 				tabData.accept(SyndredModBlocks.SPHALERITE_BLOCK.get().asItem());
-				tabData.accept(SyndredModItems.CHARGER_SPAWN_EGG.get());
-				tabData.accept(SyndredModItems.HORN_LANCE.get());
-				tabData.accept(SyndredModBlocks.EGG_INCUBATOR.get().asItem());
 				tabData.accept(SyndredModBlocks.SOULSHIRE_LOG.get().asItem());
 				tabData.accept(SyndredModBlocks.SOULSHIRE_LEAVES.get().asItem());
 				tabData.accept(SyndredModBlocks.SOULSHIRE_SAPLING.get().asItem());
@@ -54,10 +51,37 @@ public class SyndredModTabs {
 				tabData.accept(SyndredModBlocks.SOULSHIRE_WOOD.get().asItem());
 				tabData.accept(SyndredModBlocks.STRIPPED_SOULSHIRE_LOG.get().asItem());
 				tabData.accept(SyndredModBlocks.STRIPPED_SOULSHIRE_WOOD.get().asItem());
-				tabData.accept(SyndredModItems.LEATHER_SOULSTEEL_HELMET.get());
-				tabData.accept(SyndredModItems.LEATHER_SOULSTEEL_CHESTPLATE.get());
-				tabData.accept(SyndredModItems.LEATHER_SOULSTEEL_LEGGINGS.get());
-				tabData.accept(SyndredModItems.LEATHER_SOULSTEEL_BOOTS.get());
+				tabData.accept(SyndredModBlocks.DRY_STONEBRICKS.get().asItem());
+				tabData.accept(SyndredModBlocks.HARSH_STONE_BRICKS.get().asItem());
+				tabData.accept(SyndredModBlocks.HARSH_STONE_POLISHED.get().asItem());
+				tabData.accept(SyndredModBlocks.DRY_STONE_POLISHED.get().asItem());
+				tabData.accept(SyndredModBlocks.SMALL_DRY_STONEBRICKS.get().asItem());
+				tabData.accept(SyndredModBlocks.LARGE_DRY_STONEBRICKS.get().asItem());
+				tabData.accept(SyndredModBlocks.HARSH_STONE_CHISELED.get().asItem());
+				tabData.accept(SyndredModBlocks.DRY_STONE_STAIRS.get().asItem());
+				tabData.accept(SyndredModBlocks.DRY_STONE_WALL.get().asItem());
+				tabData.accept(SyndredModBlocks.DRY_STONE_SLAB.get().asItem());
+				tabData.accept(SyndredModBlocks.HARSH_STONE_STAIRS.get().asItem());
+				tabData.accept(SyndredModBlocks.HARSH_STONE_SLABS.get().asItem());
+				tabData.accept(SyndredModBlocks.HARSH_STONE_WALL.get().asItem());
+				tabData.accept(SyndredModBlocks.DRY_STONEBRICKS_STAIRS.get().asItem());
+				tabData.accept(SyndredModBlocks.DRY_STONEBRICKS_SLABS.get().asItem());
+				tabData.accept(SyndredModBlocks.DRY_STONEBRICKS_WALL.get().asItem());
+				tabData.accept(SyndredModBlocks.DRY_STONE_POLISHED_STAIRS.get().asItem());
+				tabData.accept(SyndredModBlocks.DRY_STONE_POLISHED_SLAB.get().asItem());
+				tabData.accept(SyndredModBlocks.DRY_STONE_POLISHEDWALL.get().asItem());
+				tabData.accept(SyndredModBlocks.SMALL_DRY_STONEBRICK_STAIRS.get().asItem());
+				tabData.accept(SyndredModBlocks.SMALL_DRY_STONEBRICK_SLAB.get().asItem());
+				tabData.accept(SyndredModBlocks.SMALL_DRY_STONEBRICK_WALL.get().asItem());
+				tabData.accept(SyndredModBlocks.LARGE_DRY_STONEBRICK_STAIRS.get().asItem());
+				tabData.accept(SyndredModBlocks.LARGE_DRY_STONEBRICK_SLAB.get().asItem());
+				tabData.accept(SyndredModBlocks.LARGE_DRY_STONEBRICK_WALL.get().asItem());
+				tabData.accept(SyndredModBlocks.HARSH_STONE_BRICK_STAIRS.get().asItem());
+				tabData.accept(SyndredModBlocks.HARSH_STONE_BRICK_SLAB.get().asItem());
+				tabData.accept(SyndredModBlocks.HARSH_STONE_BRICKWALL.get().asItem());
+				tabData.accept(SyndredModBlocks.HARSH_STONE_POLISHED_STAIRS.get().asItem());
+				tabData.accept(SyndredModBlocks.HARSH_STONE_POLISHED_WALL.get().asItem());
+				tabData.accept(SyndredModBlocks.HARSH_STONE_POLISHED_SLAB.get().asItem());
 			}).build());
 
 	@SubscribeEvent
@@ -65,10 +89,6 @@ public class SyndredModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(SyndredModItems.SOULSTEEL_SWORD.get());
 			tabData.accept(SyndredModItems.HORN_LANCE.get());
-			tabData.accept(SyndredModItems.LEATHER_SOULSTEEL_HELMET.get());
-			tabData.accept(SyndredModItems.LEATHER_SOULSTEEL_CHESTPLATE.get());
-			tabData.accept(SyndredModItems.LEATHER_SOULSTEEL_LEGGINGS.get());
-			tabData.accept(SyndredModItems.LEATHER_SOULSTEEL_BOOTS.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(SyndredModItems.SOULSTEEL_PICKAXE.get());
 			tabData.accept(SyndredModItems.SOULSTEEL_AXE.get());
@@ -87,6 +107,38 @@ public class SyndredModTabs {
 			tabData.accept(SyndredModItems.CHARGER_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(SyndredModItems.SOUL_SHIRE_FRUIT.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+			tabData.accept(SyndredModBlocks.DRY_STONEBRICKS.get().asItem());
+			tabData.accept(SyndredModBlocks.HARSH_STONE_BRICKS.get().asItem());
+			tabData.accept(SyndredModBlocks.HARSH_STONE_POLISHED.get().asItem());
+			tabData.accept(SyndredModBlocks.DRY_STONE_POLISHED.get().asItem());
+			tabData.accept(SyndredModBlocks.SMALL_DRY_STONEBRICKS.get().asItem());
+			tabData.accept(SyndredModBlocks.LARGE_DRY_STONEBRICKS.get().asItem());
+			tabData.accept(SyndredModBlocks.HARSH_STONE_CHISELED.get().asItem());
+			tabData.accept(SyndredModBlocks.DRY_STONE_STAIRS.get().asItem());
+			tabData.accept(SyndredModBlocks.DRY_STONE_WALL.get().asItem());
+			tabData.accept(SyndredModBlocks.DRY_STONE_SLAB.get().asItem());
+			tabData.accept(SyndredModBlocks.HARSH_STONE_STAIRS.get().asItem());
+			tabData.accept(SyndredModBlocks.HARSH_STONE_SLABS.get().asItem());
+			tabData.accept(SyndredModBlocks.HARSH_STONE_WALL.get().asItem());
+			tabData.accept(SyndredModBlocks.DRY_STONEBRICKS_STAIRS.get().asItem());
+			tabData.accept(SyndredModBlocks.DRY_STONEBRICKS_SLABS.get().asItem());
+			tabData.accept(SyndredModBlocks.DRY_STONEBRICKS_WALL.get().asItem());
+			tabData.accept(SyndredModBlocks.DRY_STONE_POLISHED_STAIRS.get().asItem());
+			tabData.accept(SyndredModBlocks.DRY_STONE_POLISHED_SLAB.get().asItem());
+			tabData.accept(SyndredModBlocks.DRY_STONE_POLISHEDWALL.get().asItem());
+			tabData.accept(SyndredModBlocks.SMALL_DRY_STONEBRICK_STAIRS.get().asItem());
+			tabData.accept(SyndredModBlocks.SMALL_DRY_STONEBRICK_SLAB.get().asItem());
+			tabData.accept(SyndredModBlocks.SMALL_DRY_STONEBRICK_WALL.get().asItem());
+			tabData.accept(SyndredModBlocks.LARGE_DRY_STONEBRICK_STAIRS.get().asItem());
+			tabData.accept(SyndredModBlocks.LARGE_DRY_STONEBRICK_SLAB.get().asItem());
+			tabData.accept(SyndredModBlocks.LARGE_DRY_STONEBRICK_WALL.get().asItem());
+			tabData.accept(SyndredModBlocks.HARSH_STONE_BRICK_STAIRS.get().asItem());
+			tabData.accept(SyndredModBlocks.HARSH_STONE_BRICK_SLAB.get().asItem());
+			tabData.accept(SyndredModBlocks.HARSH_STONE_BRICKWALL.get().asItem());
+			tabData.accept(SyndredModBlocks.HARSH_STONE_POLISHED_STAIRS.get().asItem());
+			tabData.accept(SyndredModBlocks.HARSH_STONE_POLISHED_WALL.get().asItem());
+			tabData.accept(SyndredModBlocks.HARSH_STONE_POLISHED_SLAB.get().asItem());
 		}
 	}
 }

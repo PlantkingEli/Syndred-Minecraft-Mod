@@ -24,13 +24,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-<<<<<<< HEAD
           "x": 142,
-          "y": 63,
-=======
-          "x": 143,
-          "y": 66,
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
+          "y": 64,
           "locked": false
         }
       },
@@ -48,7 +43,6 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-<<<<<<< HEAD
           "x": 162,
           "y": 72,
           "locked": false
@@ -74,10 +68,6 @@
           "use1Xscale": false,
           "x": 163,
           "y": 73,
-=======
-          "x": 163,
-          "y": 74,
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
           "locked": false
         }
       }

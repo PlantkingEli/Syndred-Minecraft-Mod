@@ -19,13 +19,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/syndred/items/raw_soulsteel.json",
-<<<<<<< HEAD
           "src/main/resources/assets/syndred/models/item/raw_soulsteel.json",
           "src/main/java/net/mcreator/syndred/item/RawSoulsteelItem.java"
-=======
-          "src/main/java/net/mcreator/syndred/item/RawSoulsteelItem.java",
-          "src/main/resources/assets/syndred/models/item/raw_soulsteel.json"
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
         ]
       },
       "path": "~/Ores/Soulsteel"
@@ -41,18 +36,10 @@
           "src/main/java/net/mcreator/syndred/block/entity/AnimaConfluxBlockEntity.java",
           "src/main/java/net/mcreator/syndred/block/AnimaConfluxBlock.java",
           "src/main/resources/assets/syndred/items/anima_conflux.json",
-<<<<<<< HEAD
           "src/main/resources/assets/syndred/blockstates/anima_conflux.json",
           "src/main/resources/assets/syndred/models/block/anima_conflux.json",
           "src/main/resources/data/syndred/loot_table/blocks/anima_conflux.json",
           "src/main/resources/assets/syndred/models/item/anima_conflux.json"
-=======
-          "src/main/java/net/mcreator/syndred/block/entity/AnimaConfluxBlockEntity.java",
-          "src/main/resources/assets/syndred/models/item/anima_conflux.json",
-          "src/main/resources/assets/syndred/models/block/anima_conflux.json",
-          "src/main/resources/data/syndred/loot_table/blocks/anima_conflux.json",
-          "src/main/resources/assets/syndred/blockstates/anima_conflux.json"
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
         ]
       },
       "path": "~/Blocks/Functional/Anima Conflux"
@@ -65,7 +52,6 @@
       "registry_name": "deepslate_sphalerite_ore",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/resources/data/syndred/loot_table/blocks/deepslate_sphalerite_ore.json",
           "src/main/resources/assets/syndred/models/block/deepslate_sphalerite_ore.json",
           "src/main/resources/assets/syndred/items/deepslate_sphalerite_ore.json",
@@ -73,17 +59,8 @@
           "src/main/resources/data/syndred/worldgen/configured_feature/deepslate_sphalerite_ore.json",
           "src/main/java/net/mcreator/syndred/block/DeepslateSphaleriteOreBlock.java",
           "src/main/resources/assets/syndred/models/item/deepslate_sphalerite_ore.json",
-=======
-          "src/main/resources/assets/syndred/items/deepslate_sphalerite_ore.json",
-          "src/main/resources/data/syndred/worldgen/configured_feature/deepslate_sphalerite_ore.json",
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
           "src/main/resources/assets/syndred/blockstates/deepslate_sphalerite_ore.json",
-          "src/main/resources/assets/syndred/models/block/deepslate_sphalerite_ore.json",
-          "src/main/resources/data/syndred/worldgen/placed_feature/deepslate_sphalerite_ore.json",
-          "src/main/resources/assets/syndred/models/item/deepslate_sphalerite_ore.json",
-          "src/main/resources/data/syndred/neoforge/biome_modifier/deepslate_sphalerite_ore_biome_modifier.json",
-          "src/main/resources/data/syndred/loot_table/blocks/deepslate_sphalerite_ore.json",
-          "src/main/java/net/mcreator/syndred/block/DeepslateSphaleriteOreBlock.java"
+          "src/main/resources/data/syndred/neoforge/biome_modifier/deepslate_sphalerite_ore_biome_modifier.json"
         ]
       },
       "path": "~/Ores/Sphalerite"
@@ -96,7 +73,6 @@
       "registry_name": "sphalerite_ore",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/resources/data/syndred/worldgen/configured_feature/sphalerite_ore.json",
           "src/main/resources/assets/syndred/models/block/sphalerite_ore.json",
           "src/main/resources/data/syndred/loot_table/blocks/sphalerite_ore.json",
@@ -106,17 +82,6 @@
           "src/main/resources/data/syndred/worldgen/placed_feature/sphalerite_ore.json",
           "src/main/resources/assets/syndred/items/sphalerite_ore.json",
           "src/main/resources/assets/syndred/blockstates/sphalerite_ore.json"
-=======
-          "src/main/resources/assets/syndred/items/sphalerite_ore.json",
-          "src/main/resources/data/syndred/worldgen/placed_feature/sphalerite_ore.json",
-          "src/main/resources/data/syndred/neoforge/biome_modifier/sphalerite_ore_biome_modifier.json",
-          "src/main/resources/data/syndred/loot_table/blocks/sphalerite_ore.json",
-          "src/main/resources/assets/syndred/models/item/sphalerite_ore.json",
-          "src/main/resources/assets/syndred/blockstates/sphalerite_ore.json",
-          "src/main/java/net/mcreator/syndred/block/SphaleriteOreBlock.java",
-          "src/main/resources/data/syndred/worldgen/configured_feature/sphalerite_ore.json",
-          "src/main/resources/assets/syndred/models/block/sphalerite_ore.json"
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
         ]
       },
       "path": "~/Ores/Sphalerite"
@@ -129,9 +94,9 @@
       "registry_name": "raw_sphalerite",
       "metadata": {
         "files": [
-          "src/main/resources/assets/syndred/models/item/raw_sphalerite.json",
+          "src/main/resources/assets/syndred/items/raw_sphalerite.json",
           "src/main/java/net/mcreator/syndred/item/RawSphaleriteItem.java",
-          "src/main/resources/assets/syndred/items/raw_sphalerite.json"
+          "src/main/resources/assets/syndred/models/item/raw_sphalerite.json"
         ]
       },
       "path": "~/Ores/Sphalerite"
@@ -174,13 +139,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/syndred/models/item/sphalerite_ingot.json",
-<<<<<<< HEAD
           "src/main/java/net/mcreator/syndred/item/SphaleriteIngotItem.java",
           "src/main/resources/assets/syndred/items/sphalerite_ingot.json"
-=======
-          "src/main/resources/assets/syndred/items/sphalerite_ingot.json",
-          "src/main/java/net/mcreator/syndred/item/SphaleriteIngotItem.java"
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
         ]
       },
       "path": "~/Ores/Sphalerite"
@@ -301,7 +261,6 @@
       "registry_name": "raw_soulsteel_block",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/resources/data/syndred/worldgen/placed_feature/raw_soulsteel_block.json",
           "src/main/resources/data/syndred/loot_table/blocks/raw_soulsteel_block.json",
           "src/main/resources/assets/syndred/blockstates/raw_soulsteel_block.json",
@@ -311,17 +270,6 @@
           "src/main/resources/assets/syndred/models/item/raw_soulsteel_block.json",
           "src/main/java/net/mcreator/syndred/block/RawSoulsteelBlockBlock.java",
           "src/main/resources/assets/syndred/models/block/raw_soulsteel_block.json"
-=======
-          "src/main/resources/data/syndred/worldgen/configured_feature/raw_soulsteel_block.json",
-          "src/main/resources/data/syndred/worldgen/placed_feature/raw_soulsteel_block.json",
-          "src/main/resources/assets/syndred/items/raw_soulsteel_block.json",
-          "src/main/resources/assets/syndred/models/item/raw_soulsteel_block.json",
-          "src/main/resources/data/syndred/neoforge/biome_modifier/raw_soulsteel_block_biome_modifier.json",
-          "src/main/java/net/mcreator/syndred/block/RawSoulsteelBlockBlock.java",
-          "src/main/resources/assets/syndred/models/block/raw_soulsteel_block.json",
-          "src/main/resources/assets/syndred/blockstates/raw_soulsteel_block.json",
-          "src/main/resources/data/syndred/loot_table/blocks/raw_soulsteel_block.json"
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
         ]
       },
       "path": "~/Ores/Soulsteel"
@@ -334,7 +282,6 @@
       "registry_name": "raw_sphalerite_block",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/resources/data/syndred/worldgen/placed_feature/raw_sphalerite_block.json",
           "src/main/resources/assets/syndred/items/raw_sphalerite_block.json",
           "src/main/resources/data/syndred/loot_table/blocks/raw_sphalerite_block.json",
@@ -344,17 +291,6 @@
           "src/main/resources/assets/syndred/models/item/raw_sphalerite_block.json",
           "src/main/resources/data/syndred/neoforge/biome_modifier/raw_sphalerite_block_biome_modifier.json",
           "src/main/resources/assets/syndred/blockstates/raw_sphalerite_block.json"
-=======
-          "src/main/resources/data/syndred/loot_table/blocks/raw_sphalerite_block.json",
-          "src/main/resources/data/syndred/neoforge/biome_modifier/raw_sphalerite_block_biome_modifier.json",
-          "src/main/resources/data/syndred/worldgen/placed_feature/raw_sphalerite_block.json",
-          "src/main/resources/assets/syndred/items/raw_sphalerite_block.json",
-          "src/main/resources/assets/syndred/blockstates/raw_sphalerite_block.json",
-          "src/main/java/net/mcreator/syndred/block/RawSphaleriteBlockBlock.java",
-          "src/main/resources/assets/syndred/models/block/raw_sphalerite_block.json",
-          "src/main/resources/assets/syndred/models/item/raw_sphalerite_block.json",
-          "src/main/resources/data/syndred/worldgen/configured_feature/raw_sphalerite_block.json"
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
         ]
       },
       "path": "~/Ores/Sphalerite"
@@ -367,7 +303,6 @@
       "registry_name": "soulsteel_ore",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/resources/data/syndred/worldgen/configured_feature/soulsteel_ore.json",
           "src/main/resources/data/syndred/worldgen/placed_feature/soulsteel_ore.json",
           "src/main/resources/data/syndred/loot_table/blocks/soulsteel_ore.json",
@@ -377,17 +312,6 @@
           "src/main/resources/assets/syndred/models/block/soulsteel_ore.json",
           "src/main/resources/data/syndred/neoforge/biome_modifier/soulsteel_ore_biome_modifier.json",
           "src/main/resources/assets/syndred/blockstates/soulsteel_ore.json"
-=======
-          "src/main/resources/data/syndred/neoforge/biome_modifier/soulsteel_ore_biome_modifier.json",
-          "src/main/resources/assets/syndred/blockstates/soulsteel_ore.json",
-          "src/main/resources/data/syndred/worldgen/configured_feature/soulsteel_ore.json",
-          "src/main/resources/data/syndred/loot_table/blocks/soulsteel_ore.json",
-          "src/main/resources/assets/syndred/items/soulsteel_ore.json",
-          "src/main/resources/data/syndred/worldgen/placed_feature/soulsteel_ore.json",
-          "src/main/resources/assets/syndred/models/block/soulsteel_ore.json",
-          "src/main/resources/assets/syndred/models/item/soulsteel_ore.json",
-          "src/main/java/net/mcreator/syndred/block/SoulsteelOreBlock.java"
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
         ]
       },
       "path": "~/Ores/Soulsteel"
@@ -401,26 +325,14 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/syndred/models/item/deepslate_soulsteel_ore.json",
-<<<<<<< HEAD
           "src/main/resources/assets/syndred/models/block/deepslate_soulsteel_ore.json",
           "src/main/java/net/mcreator/syndred/block/DeepslateSoulsteelOreBlock.java",
           "src/main/resources/data/syndred/loot_table/blocks/deepslate_soulsteel_ore.json",
           "src/main/resources/data/syndred/worldgen/configured_feature/deepslate_soulsteel_ore.json",
-=======
-          "src/main/resources/data/syndred/worldgen/placed_feature/deepslate_soulsteel_ore.json",
-          "src/main/java/net/mcreator/syndred/block/DeepslateSoulsteelOreBlock.java",
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
           "src/main/resources/assets/syndred/items/deepslate_soulsteel_ore.json",
           "src/main/resources/assets/syndred/blockstates/deepslate_soulsteel_ore.json",
           "src/main/resources/data/syndred/neoforge/biome_modifier/deepslate_soulsteel_ore_biome_modifier.json",
-<<<<<<< HEAD
           "src/main/resources/data/syndred/worldgen/placed_feature/deepslate_soulsteel_ore.json"
-=======
-          "src/main/resources/data/syndred/loot_table/blocks/deepslate_soulsteel_ore.json",
-          "src/main/resources/assets/syndred/models/block/deepslate_soulsteel_ore.json",
-          "src/main/resources/data/syndred/worldgen/configured_feature/deepslate_soulsteel_ore.json",
-          "src/main/resources/assets/syndred/blockstates/deepslate_soulsteel_ore.json"
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
         ]
       },
       "path": "~/Ores/Soulsteel"
@@ -477,15 +389,9 @@
       "registry_name": "soulsteel_sword",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/resources/assets/syndred/models/item/soulsteel_sword.json",
           "src/main/java/net/mcreator/syndred/item/SoulsteelSwordItem.java",
           "src/main/resources/assets/syndred/items/soulsteel_sword.json"
-=======
-          "src/main/java/net/mcreator/syndred/item/SoulsteelSwordItem.java",
-          "src/main/resources/assets/syndred/items/soulsteel_sword.json",
-          "src/main/resources/assets/syndred/models/item/soulsteel_sword.json"
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
         ]
       },
       "path": "~/Items/Weapons"
@@ -528,15 +434,9 @@
       "registry_name": "soulsteel_spade",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/resources/assets/syndred/items/soulsteel_spade.json",
           "src/main/resources/assets/syndred/models/item/soulsteel_spade.json",
           "src/main/java/net/mcreator/syndred/item/SoulsteelSpadeItem.java"
-=======
-          "src/main/java/net/mcreator/syndred/item/SoulsteelSpadeItem.java",
-          "src/main/resources/assets/syndred/models/item/soulsteel_spade.json",
-          "src/main/resources/assets/syndred/items/soulsteel_spade.json"
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
         ]
       },
       "path": "~/Items/Tools"
@@ -564,31 +464,18 @@
       "registry_name": "dry_stone",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/resources/data/syndred/neoforge/biome_modifier/dry_stone_biome_modifier.json",
           "src/main/resources/assets/syndred/blockstates/dry_stone.json",
           "src/main/resources/assets/syndred/models/item/dry_stone.json",
           "src/main/resources/assets/syndred/items/dry_stone.json",
-=======
-          "src/main/resources/data/syndred/worldgen/placed_feature/dry_stone.json",
-          "src/main/resources/data/syndred/worldgen/configured_feature/dry_stone.json",
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
           "src/main/resources/assets/syndred/models/block/dry_stone.json",
-          "src/main/resources/data/syndred/loot_table/blocks/dry_stone.json",
-          "src/main/resources/assets/syndred/items/dry_stone.json",
-          "src/main/resources/data/syndred/neoforge/biome_modifier/dry_stone_biome_modifier.json",
-          "src/main/resources/assets/syndred/blockstates/dry_stone.json",
           "src/main/java/net/mcreator/syndred/block/DryStoneBlock.java",
-<<<<<<< HEAD
           "src/main/resources/data/syndred/worldgen/configured_feature/dry_stone.json",
           "src/main/resources/data/syndred/worldgen/placed_feature/dry_stone.json",
           "src/main/resources/data/syndred/loot_table/blocks/dry_stone.json"
-=======
-          "src/main/resources/assets/syndred/models/item/dry_stone.json"
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
         ]
       },
-      "path": "~/Blocks/Generated"
+      "path": "~/Blocks/Generated/DryStoneNatural"
     },
     {
       "name": "HarshStone",
@@ -598,7 +485,6 @@
       "registry_name": "harsh_stone",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/resources/assets/syndred/items/harsh_stone.json",
           "src/main/resources/data/syndred/neoforge/biome_modifier/harsh_stone_biome_modifier.json",
           "src/main/resources/data/syndred/worldgen/placed_feature/harsh_stone.json",
@@ -608,20 +494,9 @@
           "src/main/resources/assets/syndred/blockstates/harsh_stone.json",
           "src/main/resources/data/syndred/worldgen/configured_feature/harsh_stone.json",
           "src/main/resources/assets/syndred/models/item/harsh_stone.json"
-=======
-          "src/main/resources/assets/syndred/models/block/harsh_stone.json",
-          "src/main/resources/data/syndred/worldgen/placed_feature/harsh_stone.json",
-          "src/main/java/net/mcreator/syndred/block/HarshStoneBlock.java",
-          "src/main/resources/assets/syndred/blockstates/harsh_stone.json",
-          "src/main/resources/data/syndred/loot_table/blocks/harsh_stone.json",
-          "src/main/resources/assets/syndred/models/item/harsh_stone.json",
-          "src/main/resources/assets/syndred/items/harsh_stone.json",
-          "src/main/resources/data/syndred/neoforge/biome_modifier/harsh_stone_biome_modifier.json",
-          "src/main/resources/data/syndred/worldgen/configured_feature/harsh_stone.json"
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
         ]
       },
-      "path": "~/Blocks/Generated"
+      "path": "~/Blocks/Generated/HarshStoneNatural"
     },
     {
       "name": "SoulsteelBlock",
@@ -631,22 +506,12 @@
       "registry_name": "soulsteel_block",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/java/net/mcreator/syndred/block/SoulsteelBlockBlock.java",
           "src/main/resources/assets/syndred/models/block/soulsteel_block.json",
           "src/main/resources/data/syndred/loot_table/blocks/soulsteel_block.json",
-=======
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
           "src/main/resources/assets/syndred/blockstates/soulsteel_block.json",
-          "src/main/resources/assets/syndred/models/block/soulsteel_block.json",
-          "src/main/resources/data/syndred/loot_table/blocks/soulsteel_block.json",
           "src/main/resources/assets/syndred/items/soulsteel_block.json",
-<<<<<<< HEAD
           "src/main/resources/assets/syndred/models/item/soulsteel_block.json"
-=======
-          "src/main/resources/assets/syndred/models/item/soulsteel_block.json",
-          "src/main/java/net/mcreator/syndred/block/SoulsteelBlockBlock.java"
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
         ]
       },
       "path": "~/Blocks/Block Versions"
@@ -688,17 +553,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/syndred/items/sphalerite_block.json",
-<<<<<<< HEAD
           "src/main/resources/assets/syndred/models/item/sphalerite_block.json",
           "src/main/resources/assets/syndred/blockstates/sphalerite_block.json",
           "src/main/resources/data/syndred/loot_table/blocks/sphalerite_block.json",
           "src/main/resources/assets/syndred/models/block/sphalerite_block.json",
           "src/main/java/net/mcreator/syndred/block/SphaleriteBlockBlock.java"
-=======
-          "src/main/resources/assets/syndred/models/block/sphalerite_block.json",
-          "src/main/java/net/mcreator/syndred/block/SphaleriteBlockBlock.java",
-          "src/main/resources/assets/syndred/blockstates/sphalerite_block.json"
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
         ]
       },
       "path": "~/Blocks/Block Versions"
@@ -711,8 +570,8 @@
       "registry_name": "sphalerite_block_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/syndred/recipe/sphalerite_block_recipe.json",
-          "src/main/resources/data/syndred/advancement/recipes/sphalerite_block_recipe.json"
+          "src/main/resources/data/syndred/advancement/recipes/sphalerite_block_recipe.json",
+          "src/main/resources/data/syndred/recipe/sphalerite_block_recipe.json"
         ]
       },
       "path": "~/Recipes/Crafting/Sphalerite Stuff"
@@ -725,8 +584,8 @@
       "registry_name": "sphalerite_ingot_recipe_from_block",
       "metadata": {
         "files": [
-          "src/main/resources/data/syndred/advancement/recipes/sphalerite_ingot_recipe_from_block.json",
-          "src/main/resources/data/syndred/recipe/sphalerite_ingot_recipe_from_block.json"
+          "src/main/resources/data/syndred/recipe/sphalerite_ingot_recipe_from_block.json",
+          "src/main/resources/data/syndred/advancement/recipes/sphalerite_ingot_recipe_from_block.json"
         ]
       },
       "path": "~/Recipes/Crafting/Sphalerite Stuff"
@@ -782,17 +641,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/syndred/items/charger_spawn_egg.json",
-<<<<<<< HEAD
           "src/main/java/net/mcreator/syndred/entity/ChargerEntity.java",
           "src/main/resources/data/syndred/neoforge/biome_modifier/charger_biome_modifier.json",
           "src/main/java/net/mcreator/syndred/client/renderer/ChargerRenderer.java",
           "src/main/resources/assets/syndred/models/item/charger_spawn_egg.json"
-=======
-          "src/main/resources/data/syndred/neoforge/biome_modifier/charger_biome_modifier.json",
-          "src/main/java/net/mcreator/syndred/client/renderer/ChargerRenderer.java",
-          "src/main/resources/assets/syndred/models/item/charger_spawn_egg.json",
-          "src/main/java/net/mcreator/syndred/entity/ChargerEntity.java"
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
         ]
       },
       "path": "~/Entities"
@@ -805,17 +657,10 @@
       "registry_name": "horn_lance",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/resources/assets/syndred/models/item/horn_lance_gui.json",
           "src/main/resources/assets/syndred/items/horn_lance.json",
           "src/main/java/net/mcreator/syndred/item/HornLanceItem.java",
           "src/main/resources/assets/syndred/models/item/horn_lance.json"
-=======
-          "src/main/java/net/mcreator/syndred/item/HornLanceItem.java",
-          "src/main/resources/assets/syndred/models/item/horn_lance_gui.json",
-          "src/main/resources/assets/syndred/models/item/horn_lance.json",
-          "src/main/resources/assets/syndred/items/horn_lance.json"
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
         ]
       },
       "path": "~/Items/Weapons"
@@ -1019,7 +864,6 @@
       "registry_name": "egg_incubator",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/java/net/mcreator/syndred/block/entity/EggIncubatorBlockEntity.java",
           "src/main/resources/data/syndred/loot_table/blocks/egg_incubator.json",
           "src/main/resources/assets/syndred/models/item/egg_incubator.json",
@@ -1027,15 +871,6 @@
           "src/main/resources/assets/syndred/items/egg_incubator.json",
           "src/main/resources/assets/syndred/blockstates/egg_incubator.json",
           "src/main/resources/assets/syndred/models/block/egg_incubator.json"
-=======
-          "src/main/java/net/mcreator/syndred/block/EggIncubatorBlock.java",
-          "src/main/resources/data/syndred/loot_table/blocks/egg_incubator.json",
-          "src/main/java/net/mcreator/syndred/block/entity/EggIncubatorBlockEntity.java",
-          "src/main/resources/assets/syndred/models/block/egg_incubator.json",
-          "src/main/resources/assets/syndred/models/item/egg_incubator.json",
-          "src/main/resources/assets/syndred/blockstates/egg_incubator.json",
-          "src/main/resources/assets/syndred/items/egg_incubator.json"
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
         ]
       },
       "path": "~/Blocks/Functional/Egg Incubator"
@@ -1079,21 +914,12 @@
       "registry_name": "soulshire_log",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/resources/data/syndred/loot_table/blocks/soulshire_log.json",
           "src/main/java/net/mcreator/syndred/block/SoulshireLogBlock.java",
           "src/main/resources/assets/syndred/items/soulshire_log.json",
           "src/main/resources/assets/syndred/models/block/soulshire_log.json",
           "src/main/resources/assets/syndred/models/item/soulshire_log.json",
           "src/main/resources/assets/syndred/blockstates/soulshire_log.json"
-=======
-          "src/main/resources/assets/syndred/blockstates/soulshire_log.json",
-          "src/main/java/net/mcreator/syndred/block/SoulshireLogBlock.java",
-          "src/main/resources/data/syndred/loot_table/blocks/soulshire_log.json",
-          "src/main/resources/assets/syndred/models/item/soulshire_log.json",
-          "src/main/resources/assets/syndred/items/soulshire_log.json",
-          "src/main/resources/assets/syndred/models/block/soulshire_log.json"
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
         ]
       },
       "path": "~/Blocks/Natural"
@@ -1106,21 +932,12 @@
       "registry_name": "soulshire_leaves",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/java/net/mcreator/syndred/block/SoulshireLeavesBlock.java",
           "src/main/resources/data/syndred/loot_table/blocks/soulshire_leaves.json",
           "src/main/resources/assets/syndred/models/block/soulshire_leaves.json",
           "src/main/resources/assets/syndred/models/item/soulshire_leaves.json",
           "src/main/resources/assets/syndred/items/soulshire_leaves.json",
           "src/main/resources/assets/syndred/blockstates/soulshire_leaves.json"
-=======
-          "src/main/resources/assets/syndred/models/block/soulshire_leaves.json",
-          "src/main/resources/assets/syndred/items/soulshire_leaves.json",
-          "src/main/resources/assets/syndred/models/item/soulshire_leaves.json",
-          "src/main/java/net/mcreator/syndred/block/SoulshireLeavesBlock.java",
-          "src/main/resources/assets/syndred/blockstates/soulshire_leaves.json",
-          "src/main/resources/data/syndred/loot_table/blocks/soulshire_leaves.json"
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
         ]
       },
       "path": "~/Blocks/Natural"
@@ -1134,12 +951,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/syndred/block/SoulshireSaplingBlock.java",
-          "src/main/resources/assets/syndred/models/block/soulshire_sapling.json",
           "src/main/resources/assets/syndred/items/soulshire_sapling.json",
-<<<<<<< HEAD
           "src/main/resources/assets/syndred/models/block/soulshire_sapling.json",
-=======
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
           "src/main/resources/assets/syndred/blockstates/soulshire_sapling.json",
           "src/main/resources/data/syndred/loot_table/blocks/soulshire_sapling.json",
           "src/main/resources/assets/syndred/models/item/soulshire_sapling.json"
@@ -1155,21 +968,12 @@
       "registry_name": "soulshire_vines",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/java/net/mcreator/syndred/block/SoulshireVinesBlock.java",
           "src/main/resources/assets/syndred/blockstates/soulshire_vines.json",
           "src/main/resources/assets/syndred/items/soulshire_vines.json",
           "src/main/resources/assets/syndred/models/block/soulshire_vines.json",
           "src/main/resources/data/syndred/loot_table/blocks/soulshire_vines.json",
           "src/main/resources/assets/syndred/models/item/soulshire_vines.json"
-=======
-          "src/main/resources/assets/syndred/models/block/soulshire_vines.json",
-          "src/main/resources/assets/syndred/blockstates/soulshire_vines.json",
-          "src/main/java/net/mcreator/syndred/block/SoulshireVinesBlock.java",
-          "src/main/resources/data/syndred/loot_table/blocks/soulshire_vines.json",
-          "src/main/resources/assets/syndred/models/item/soulshire_vines.json",
-          "src/main/resources/assets/syndred/items/soulshire_vines.json"
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
         ]
       },
       "path": "~/Blocks/Natural"
@@ -1183,19 +987,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/syndred/blockstates/soulshire_vines_end.json",
-<<<<<<< HEAD
           "src/main/resources/assets/syndred/models/block/soulshire_vines_end.json",
           "src/main/resources/data/syndred/loot_table/blocks/soulshire_vines_end.json",
           "src/main/java/net/mcreator/syndred/block/SoulshireVinesEndBlock.java",
           "src/main/resources/assets/syndred/models/item/soulshire_vines_end.json",
           "src/main/resources/assets/syndred/items/soulshire_vines_end.json"
-=======
-          "src/main/java/net/mcreator/syndred/block/SoulshireVinesEndBlock.java",
-          "src/main/resources/assets/syndred/items/soulshire_vines_end.json",
-          "src/main/resources/data/syndred/loot_table/blocks/soulshire_vines_end.json",
-          "src/main/resources/assets/syndred/models/item/soulshire_vines_end.json",
-          "src/main/resources/assets/syndred/models/block/soulshire_vines_end.json"
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
         ]
       },
       "path": "~/Blocks/Natural"
@@ -1208,11 +1004,11 @@
       "registry_name": "soulshire_vines_fruiting",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/syndred/block/SoulshireVinesFruitingBlock.java",
           "src/main/resources/data/syndred/loot_table/blocks/soulshire_vines_fruiting.json",
           "src/main/resources/assets/syndred/items/soulshire_vines_fruiting.json",
-          "src/main/resources/assets/syndred/models/item/soulshire_vines_fruiting.json",
-          "src/main/java/net/mcreator/syndred/block/SoulshireVinesFruitingBlock.java",
           "src/main/resources/assets/syndred/blockstates/soulshire_vines_fruiting.json",
+          "src/main/resources/assets/syndred/models/item/soulshire_vines_fruiting.json",
           "src/main/resources/assets/syndred/models/block/soulshire_vines_fruiting.json"
         ]
       },
@@ -1227,19 +1023,11 @@
       "metadata": {
         "files": [
           "src/main/resources/data/syndred/loot_table/blocks/soulshire_vines_end_fruiting.json",
-<<<<<<< HEAD
           "src/main/resources/assets/syndred/models/item/soulshire_vines_end_fruiting.json",
           "src/main/resources/assets/syndred/blockstates/soulshire_vines_end_fruiting.json",
           "src/main/resources/assets/syndred/models/block/soulshire_vines_end_fruiting.json",
           "src/main/resources/assets/syndred/items/soulshire_vines_end_fruiting.json",
           "src/main/java/net/mcreator/syndred/block/SoulshireVinesEndFruitingBlock.java"
-=======
-          "src/main/java/net/mcreator/syndred/block/SoulshireVinesEndFruitingBlock.java",
-          "src/main/resources/assets/syndred/models/item/soulshire_vines_end_fruiting.json",
-          "src/main/resources/assets/syndred/models/block/soulshire_vines_end_fruiting.json",
-          "src/main/resources/assets/syndred/blockstates/soulshire_vines_end_fruiting.json",
-          "src/main/resources/assets/syndred/items/soulshire_vines_end_fruiting.json"
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
         ]
       },
       "path": "~/Blocks/Natural"
@@ -1283,15 +1071,9 @@
       "registry_name": "soul_shire_fruit",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/resources/assets/syndred/items/soul_shire_fruit.json",
           "src/main/resources/assets/syndred/models/item/soul_shire_fruit.json",
           "src/main/java/net/mcreator/syndred/item/SoulShireFruitItem.java"
-=======
-          "src/main/java/net/mcreator/syndred/item/SoulShireFruitItem.java",
-          "src/main/resources/assets/syndred/models/item/soul_shire_fruit.json",
-          "src/main/resources/assets/syndred/items/soul_shire_fruit.json"
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
         ]
       },
       "path": "~/Blocks/Natural"
@@ -1370,21 +1152,12 @@
       "registry_name": "soulshire_wood",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/resources/data/syndred/loot_table/blocks/soulshire_wood.json",
           "src/main/resources/assets/syndred/models/block/soulshire_wood.json",
           "src/main/resources/assets/syndred/blockstates/soulshire_wood.json",
           "src/main/java/net/mcreator/syndred/block/SoulshireWoodBlock.java",
           "src/main/resources/assets/syndred/items/soulshire_wood.json",
           "src/main/resources/assets/syndred/models/item/soulshire_wood.json"
-=======
-          "src/main/resources/assets/syndred/items/soulshire_wood.json",
-          "src/main/resources/assets/syndred/models/item/soulshire_wood.json",
-          "src/main/resources/assets/syndred/models/block/soulshire_wood.json",
-          "src/main/resources/data/syndred/loot_table/blocks/soulshire_wood.json",
-          "src/main/resources/assets/syndred/blockstates/soulshire_wood.json",
-          "src/main/java/net/mcreator/syndred/block/SoulshireWoodBlock.java"
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
         ]
       },
       "path": "~/Blocks/Natural"
@@ -1397,21 +1170,12 @@
       "registry_name": "stripped_soulshire_log",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/resources/data/syndred/loot_table/blocks/stripped_soulshire_log.json",
           "src/main/resources/assets/syndred/blockstates/stripped_soulshire_log.json",
           "src/main/java/net/mcreator/syndred/block/StrippedSoulshireLogBlock.java",
           "src/main/resources/assets/syndred/models/block/stripped_soulshire_log.json",
           "src/main/resources/assets/syndred/items/stripped_soulshire_log.json",
           "src/main/resources/assets/syndred/models/item/stripped_soulshire_log.json"
-=======
-          "src/main/resources/assets/syndred/models/item/stripped_soulshire_log.json",
-          "src/main/resources/assets/syndred/models/block/stripped_soulshire_log.json",
-          "src/main/resources/data/syndred/loot_table/blocks/stripped_soulshire_log.json",
-          "src/main/java/net/mcreator/syndred/block/StrippedSoulshireLogBlock.java",
-          "src/main/resources/assets/syndred/items/stripped_soulshire_log.json",
-          "src/main/resources/assets/syndred/blockstates/stripped_soulshire_log.json"
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
         ]
       },
       "path": "~/Blocks/Natural"
@@ -1424,21 +1188,12 @@
       "registry_name": "stripped_soulshire_wood",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/resources/data/syndred/loot_table/blocks/stripped_soulshire_wood.json",
           "src/main/resources/assets/syndred/models/block/stripped_soulshire_wood.json",
           "src/main/resources/assets/syndred/models/item/stripped_soulshire_wood.json",
           "src/main/java/net/mcreator/syndred/block/StrippedSoulshireWoodBlock.java",
           "src/main/resources/assets/syndred/blockstates/stripped_soulshire_wood.json",
           "src/main/resources/assets/syndred/items/stripped_soulshire_wood.json"
-=======
-          "src/main/java/net/mcreator/syndred/block/StrippedSoulshireWoodBlock.java",
-          "src/main/resources/assets/syndred/models/item/stripped_soulshire_wood.json",
-          "src/main/resources/assets/syndred/items/stripped_soulshire_wood.json",
-          "src/main/resources/assets/syndred/models/block/stripped_soulshire_wood.json",
-          "src/main/resources/assets/syndred/blockstates/stripped_soulshire_wood.json",
-          "src/main/resources/data/syndred/loot_table/blocks/stripped_soulshire_wood.json"
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
         ]
       },
       "path": "~/Blocks/Natural"
@@ -1452,105 +1207,75 @@
       "metadata": {
         "has_nbt_structure": true,
         "files": [
-<<<<<<< HEAD
           "src/main/resources/data/syndred/worldgen/configured_feature/soulshire_tree.json",
           "src/main/resources/data/syndred/neoforge/biome_modifier/soulshire_tree_biome_modifier.json",
           "src/main/resources/data/syndred/worldgen/placed_feature/soulshire_tree.json"
-=======
-          "src/main/resources/data/syndred/neoforge/biome_modifier/soulshire_tree_biome_modifier.json",
-          "src/main/resources/data/syndred/worldgen/placed_feature/soulshire_tree.json",
-          "src/main/resources/data/syndred/worldgen/configured_feature/soulshire_tree.json"
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
         ]
       },
       "path": "~/FeaturesAndStructures"
     },
     {
-      "name": "SoulshireForest",
-      "type": "biome",
+      "name": "DryStonebricks",
+      "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "soulshire_forest",
+      "registry_name": "dry_stonebricks",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/java/net/mcreator/syndred/block/DryStonebricksBlock.java",
           "src/main/resources/assets/syndred/blockstates/dry_stonebricks.json",
           "src/main/resources/data/syndred/loot_table/blocks/dry_stonebricks.json",
           "src/main/resources/assets/syndred/models/item/dry_stonebricks.json",
           "src/main/resources/assets/syndred/items/dry_stonebricks.json",
           "src/main/resources/assets/syndred/models/block/dry_stonebricks.json"
-=======
-          "src/main/resources/data/syndred/worldgen/biome/soulshire_forest.json"
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
         ]
       },
-      "path": "~/Biomes"
+      "path": "~/Blocks/Generated/DryStoneBricks"
     },
     {
-      "name": "LeatherSoulsteel",
-      "type": "armor",
+      "name": "HarshStoneBricks",
+      "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "leather_soulsteel",
+      "registry_name": "harsh_stone_bricks",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/resources/assets/syndred/models/item/harsh_stone_bricks.json",
           "src/main/java/net/mcreator/syndred/block/HarshStoneBricksBlock.java",
           "src/main/resources/assets/syndred/blockstates/harsh_stone_bricks.json",
           "src/main/resources/data/syndred/loot_table/blocks/harsh_stone_bricks.json",
           "src/main/resources/assets/syndred/items/harsh_stone_bricks.json",
           "src/main/resources/assets/syndred/models/block/harsh_stone_bricks.json"
-=======
-          "src/main/java/net/mcreator/syndred/client/renderer/item/LeatherSoulsteelArmor.java",
-          "src/main/resources/assets/syndred/models/item/leather_soulsteel_boots.json",
-          "src/main/resources/assets/syndred/items/leather_soulsteel_chestplate.json",
-          "src/main/resources/assets/syndred/items/leather_soulsteel_leggings.json",
-          "src/main/java/net/mcreator/syndred/item/LeatherSoulsteelItem.java",
-          "src/main/resources/assets/syndred/equipment/leather_soulsteel.json",
-          "src/main/resources/assets/syndred/models/item/leather_soulsteel_leggings.json",
-          "src/main/resources/assets/syndred/models/item/leather_soulsteel_helmet.json",
-          "src/main/resources/assets/syndred/items/leather_soulsteel_boots.json",
-          "src/main/resources/assets/syndred/models/item/leather_soulsteel_chestplate.json",
-          "src/main/resources/assets/syndred/items/leather_soulsteel_helmet.json"
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
         ]
       },
-      "path": "~/Armors"
+      "path": "~/Blocks/Generated/HarshStoneBricks"
     },
     {
-      "name": "EggIncubatorGUI",
-      "type": "gui",
+      "name": "HarshStonePolished",
+      "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "egg_incubator_gui",
+      "registry_name": "harsh_stone_polished",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/resources/assets/syndred/items/harsh_stone_polished.json",
           "src/main/java/net/mcreator/syndred/block/HarshStonePolishedBlock.java",
           "src/main/resources/data/syndred/loot_table/blocks/harsh_stone_polished.json",
           "src/main/resources/assets/syndred/models/block/harsh_stone_polished.json",
           "src/main/resources/assets/syndred/models/item/harsh_stone_polished.json",
           "src/main/resources/assets/syndred/blockstates/harsh_stone_polished.json"
-=======
-          "src/main/java/net/mcreator/syndred/world/inventory/EggIncubatorGUIMenu.java",
-          "src/main/java/net/mcreator/syndred/client/gui/EggIncubatorGUIScreen.java"
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
         ]
       },
-      "path": "~/GUIs"
+      "path": "~/Blocks/Generated/PolishedHarshStone"
     },
     {
-      "name": "Ineedsleep",
-      "type": "item",
+      "name": "DryStonePolished",
+      "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ineedsleep",
+      "registry_name": "dry_stone_polished",
       "metadata": {
         "files": [
-<<<<<<< HEAD
           "src/main/resources/assets/syndred/items/dry_stone_polished.json",
           "src/main/resources/assets/syndred/models/item/dry_stone_polished.json",
           "src/main/java/net/mcreator/syndred/block/DryStonePolishedBlock.java",
@@ -2655,19 +2380,43 @@
         ]
       },
       "path": "~/GUIs"
-=======
-          "src/main/java/net/mcreator/syndred/item/IneedsleepItem.java",
-          "src/main/resources/assets/syndred/items/ineedsleep.json",
-          "src/main/resources/assets/syndred/models/item/ineedsleep.json"
-        ]
-      }
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:HarshStonePolishedSlab",
+      "~CUSTOM:HarshStonePolishedWall",
+      "~CUSTOM:HarshStonePolishedStairs",
+      "~CUSTOM:HarshStoneBrickwall",
+      "~CUSTOM:HarshStoneBrickSlab",
+      "~CUSTOM:HarshStoneBrickStairs",
+      "~CUSTOM:LargeDryStonebrickWall",
+      "~CUSTOM:LargeDryStonebrickSlab",
+      "~CUSTOM:LargeDryStonebrickStairs",
+      "~CUSTOM:SmallDryStonebrickWall",
+      "~CUSTOM:SmallDryStonebrickSlab",
+      "~CUSTOM:SmallDryStonebrickStairs",
+      "~CUSTOM:DryStonePolishedwall",
+      "~CUSTOM:DryStonePolishedSlab",
+      "~CUSTOM:DryStonePolishedStairs",
+      "~CUSTOM:DryStonebricksWall",
+      "~CUSTOM:DryStonebricksSlabs",
+      "~CUSTOM:DryStonebricksStairs",
+      "~CUSTOM:HarshStoneWall",
+      "~CUSTOM:HarshStoneSlabs",
+      "~CUSTOM:HarshStoneStairs",
+      "~CUSTOM:DryStoneSlab",
+      "~CUSTOM:DryStoneWall",
+      "~CUSTOM:DryStoneStairs",
+      "~CUSTOM:HarshStoneChiseled",
+      "~CUSTOM:LargeDryStonebricks",
+      "~CUSTOM:SmallDryStonebricks",
+      "~CUSTOM:DryStonePolished",
+      "~CUSTOM:HarshStonePolished",
+      "~CUSTOM:HarshStoneBricks",
+      "~CUSTOM:DryStonebricks",
       "~CUSTOM:SphaleriteBlock",
       "~CUSTOM:SoulsteelBlock",
       "~CUSTOM:HarshStone",
@@ -2692,6 +2441,18 @@
       "~CUSTOM:AnimaConflux"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:HarshStonePolishedSlab",
+      "~CUSTOM:HarshStonePolishedWall",
+      "~CUSTOM:HarshStonePolishedStairs",
+      "~CUSTOM:HarshStoneBrickwall",
+      "~CUSTOM:HarshStoneBrickSlab",
+      "~CUSTOM:HarshStoneBrickStairs",
+      "~CUSTOM:HarshStoneWall",
+      "~CUSTOM:HarshStoneSlabs",
+      "~CUSTOM:HarshStoneStairs",
+      "~CUSTOM:HarshStoneChiseled",
+      "~CUSTOM:HarshStonePolished",
+      "~CUSTOM:HarshStoneBricks",
       "~CUSTOM:HarshStone",
       "~CUSTOM:RawSphaleriteBlock",
       "~CUSTOM:SphaleriteOre",
@@ -2758,20 +2519,35 @@
       "CUSTOM:SoulshireVinesFruiting",
       "CUSTOM:SoulshireVinesEndFruiting"
     ],
-    "ITEMS:minecraft:head_armor": [
-      "~CUSTOM:LeatherSoulsteel.helmet"
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:HarshStonePolishedStairs",
+      "~CUSTOM:HarshStoneBrickStairs",
+      "~CUSTOM:LargeDryStonebrickStairs",
+      "~CUSTOM:SmallDryStonebrickStairs",
+      "~CUSTOM:DryStonePolishedStairs",
+      "~CUSTOM:DryStonebricksStairs",
+      "~CUSTOM:HarshStoneStairs",
+      "~CUSTOM:DryStoneStairs"
     ],
-    "ITEMS:minecraft:chest_armor": [
-      "~CUSTOM:LeatherSoulsteel.body"
+    "BLOCKS:minecraft:walls": [
+      "~CUSTOM:HarshStonePolishedWall",
+      "~CUSTOM:HarshStoneBrickwall",
+      "~CUSTOM:LargeDryStonebrickWall",
+      "~CUSTOM:SmallDryStonebrickWall",
+      "~CUSTOM:DryStonePolishedwall",
+      "~CUSTOM:DryStonebricksWall",
+      "~CUSTOM:HarshStoneWall",
+      "~CUSTOM:DryStoneWall"
     ],
-    "ITEMS:minecraft:leg_armor": [
-      "~CUSTOM:LeatherSoulsteel.legs"
-    ],
-    "ITEMS:minecraft:foot_armor": [
-      "~CUSTOM:LeatherSoulsteel.boots"
-    ],
-    "ITEMS:syndred:leather_soulsteel_repair_items": [
-      "~CUSTOM:SoulsteelIngot"
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:HarshStonePolishedSlab",
+      "~CUSTOM:HarshStoneBrickSlab",
+      "~CUSTOM:LargeDryStonebrickSlab",
+      "~CUSTOM:SmallDryStonebrickSlab",
+      "~CUSTOM:DryStonePolishedSlab",
+      "~CUSTOM:DryStonebricksSlabs",
+      "~CUSTOM:HarshStoneSlabs",
+      "~CUSTOM:DryStoneSlab"
     ]
   },
   "tab_element_order": {},
@@ -2816,21 +2592,45 @@
       "item.syndred.soulshire_vines_end": "Soulshire Vines",
       "item.syndred.soulshire_vines_fruiting": "Soulshire Vines",
       "item.syndred.soulshire_vines_end_fruiting": "Soulshire Vines",
-      "item.syndred.soul_shire_fruit": "Tamaberry",
+      "item.syndred.soul_shire_fruit": "Soul Shire Fruit",
       "item.syndred.soulshire_wood": "Soulshire Wood",
       "item.syndred.stripped_soulshire_log": "Stripped Soulshire Log",
       "item.syndred.stripped_soulshire_wood": "Stripped Soulshire Wood",
-      "biome.syndred.soulshire_forest": "Soulshire Forest",
-      "item.syndred.leather_soulsteel_boots": "Leather Soulsteel Boots",
-      "item.syndred.leather_soulsteel_leggings": "Leather Soulsteel Leggings",
-      "item.syndred.leather_soulsteel_chestplate": "Leather Soulsteel Chestplate",
-      "item.syndred.leather_soulsteel_helmet": "Leather Soulsteel Helmet",
-      "item.syndred.ineedsleep": "Ineedsleep"
+      "item.syndred.dry_stonebricks": "Dry Stone Bricks",
+      "item.syndred.harsh_stone_bricks": "Harsh Stone Bricks",
+      "item.syndred.harsh_stone_polished": "Polished Harsh Stone",
+      "item.syndred.dry_stone_polished": "Polished Dry Stone",
+      "item.syndred.small_dry_stonebricks": "Small Dry Stone bricks",
+      "item.syndred.large_dry_stonebricks": "Large Dry Stone bricks",
+      "item.syndred.harsh_stone_chiseled": "Polished Harsh Stone",
+      "item.syndred.dry_stone_stairs": "Dry Stone Stairs",
+      "item.syndred.dry_stone_wall": "Dry Stone Wall",
+      "item.syndred.dry_stone_slab": "Dry Stone Slab",
+      "item.syndred.harsh_stone_stairs": "Harsh Stone Stairs",
+      "item.syndred.harsh_stone_slabs": "Harsh Stone Slab",
+      "item.syndred.harsh_stone_wall": "Harsh Stone Wall",
+      "item.syndred.dry_stonebricks_stairs": "Dry Stone Brick Stairs",
+      "item.syndred.dry_stonebricks_slabs": "Dry Stone Brick Slab",
+      "item.syndred.dry_stonebricks_wall": "Dry Stone Brick Wall",
+      "item.syndred.dry_stone_polished_stairs": "Polished Dry Stone Stairs",
+      "item.syndred.dry_stone_polished_slab": "Polished Dry Stone Stairs",
+      "item.syndred.dry_stone_polishedwall": "Polished Dry Stone Stairs",
+      "item.syndred.small_dry_stonebrick_stairs": "Small Dry Stone brick Stairs",
+      "item.syndred.small_dry_stonebrick_slab": "Small Dry Stone brick Slab",
+      "item.syndred.small_dry_stonebrick_wall": "Small Dry Stone brick Wall",
+      "item.syndred.large_dry_stonebrick_stairs": "Large Dry Stone brick Stairs",
+      "item.syndred.large_dry_stonebrick_slab": "Large Dry Stone brick Slab",
+      "item.syndred.large_dry_stonebrick_wall": "Large Dry Stone brick Wall",
+      "item.syndred.harsh_stone_brick_stairs": "Harsh Stone Brick Stairs",
+      "item.syndred.harsh_stone_brick_slab": "Harsh Stone Brick Slab",
+      "item.syndred.harsh_stone_brickwall": "Harsh Stone Brick Wall",
+      "item.syndred.harsh_stone_polished_stairs": "Polished Harsh Stone Stairs",
+      "item.syndred.harsh_stone_polished_wall": "Polished Harsh Stone Wall",
+      "item.syndred.harsh_stone_polished_slab": "Polished Harsh Stone Slab"
     }
   },
   "metadata": {
     "files": [
-<<<<<<< HEAD
       "src/main/java/net/mcreator/syndred/world/features/StructureFeature.java",
       "src/main/java/net/mcreator/syndred/world/features/configurations/StructureFeatureConfiguration.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModMenus.java",
@@ -2839,41 +2639,19 @@
       "src/main/java/net/mcreator/syndred/init/SyndredModRecipeTypes.java",
       "src/main/java/net/mcreator/syndred/jei_recipes/EmptyIngredient.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModJeiPlugin.java",
-=======
-      "src/main/java/net/mcreator/syndred/mixin/NoiseGeneratorSettingsMixin.java",
-      "src/main/java/net/mcreator/syndred/init/SyndredModBiomes.java",
-      "src/main/java/net/mcreator/syndred/world/features/configurations/StructureFeatureConfiguration.java",
-      "src/main/java/net/mcreator/syndred/world/features/StructureFeature.java",
-      "src/main/java/net/mcreator/syndred/network/MenuStateUpdateMessage.java",
-      "src/main/java/net/mcreator/syndred/init/SyndredModScreens.java",
-      "src/main/java/net/mcreator/syndred/init/SyndredModMenus.java",
-      "src/main/java/net/mcreator/syndred/init/SyndredModJeiPlugin.java",
-      "src/main/java/net/mcreator/syndred/jei_recipes/EmptyIngredient.java",
-      "src/main/java/net/mcreator/syndred/init/SyndredModRecipeTypes.java",
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
       "src/main/java/net/mcreator/syndred/init/SyndredModBrewingRecipes.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModBlocks.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModBlockEntities.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModItems.java",
+      "src/main/java/net/mcreator/syndred/init/SyndredModEntityRenderers.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModEntities.java",
-<<<<<<< HEAD
       "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/syndred/init/SyndredModModels.java",
       "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/syndred/SyndredMod.java",
       "src/main/java/net/mcreator/syndred/init/SyndredModTabs.java"
-=======
-      "src/main/java/net/mcreator/syndred/init/SyndredModEntityRenderers.java",
-      "src/main/resources/META-INF/accesstransformer.cfg",
-      "src/main/java/net/mcreator/syndred/init/SyndredModTabs.java",
-      "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/syndred/init/SyndredModModels.java",
-      "src/main/java/net/mcreator/syndred/SyndredMod.java",
-      "src/main/resources/syndred.mixins.json"
->>>>>>> 2f77b5d32427c8b74d8caf060ead9672be731208
     ]
   },
   "foldersRoot": {
@@ -2910,7 +2688,48 @@
           },
           {
             "name": "Generated",
-            "children": []
+            "children": [
+              {
+                "name": "DryStoneNatural",
+                "children": []
+              },
+              {
+                "name": "HarshStoneNatural",
+                "children": []
+              },
+              {
+                "name": "DryStoneBricks",
+                "children": []
+              },
+              {
+                "name": "HarshStoneBricks",
+                "children": []
+              },
+              {
+                "name": "PolishedDryStone",
+                "children": []
+              },
+              {
+                "name": "PolishedHarshStone",
+                "children": []
+              },
+              {
+                "name": "SmallDryStoneBricks",
+                "children": []
+              },
+              {
+                "name": "LargeDryStonebricks",
+                "children": []
+              },
+              {
+                "name": "ChiseledHarshStone",
+                "children": []
+              },
+              {
+                "name": "ChiseledDryStone",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Block Versions",
@@ -2942,6 +2761,14 @@
               },
               {
                 "name": "Sphalerite Stuff",
+                "children": []
+              },
+              {
+                "name": "DryStone Stuff",
+                "children": []
+              },
+              {
+                "name": "HarshStone Stuff",
                 "children": []
               }
             ]
@@ -3014,18 +2841,6 @@
       },
       {
         "name": "FeaturesAndStructures",
-        "children": []
-      },
-      {
-        "name": "Java",
-        "children": []
-      },
-      {
-        "name": "Biomes",
-        "children": []
-      },
-      {
-        "name": "Armors",
         "children": []
       }
     ]
