@@ -2887,6 +2887,239 @@
         ]
       },
       "path": "~/Blocks/Natural/Soulshire/Decorative"
+    },
+    {
+      "name": "SoulMossBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_moss_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/models/item/soul_moss_block.json",
+          "src/main/resources/data/syndred/loot_table/blocks/soul_moss_block.json",
+          "src/main/java/net/syndred/syndred/block/SoulMossBlockBlock.java",
+          "src/main/resources/assets/syndred/models/block/soul_moss_block.json",
+          "src/main/resources/assets/syndred/blockstates/soul_moss_block.json",
+          "src/main/resources/assets/syndred/items/soul_moss_block.json"
+        ]
+      },
+      "path": "~/Blocks/Natural"
+    },
+    {
+      "name": "MossGrowthWhenBonemealed",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moss_growth_when_bonemealed",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/worldgen/placed_feature/moss_growth_when_bonemealed.json",
+          "src/main/resources/data/syndred/worldgen/configured_feature/moss_growth_when_bonemealed.json",
+          "src/main/resources/data/syndred/neoforge/biome_modifier/moss_growth_when_bonemealed_biome_modifier.json"
+        ]
+      },
+      "path": "~/FeaturesAndStructures"
+    },
+    {
+      "name": "SoulMossBlockOnBoneMealSuccess",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_moss_block_on_bone_meal_success",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/syndred/syndred/procedures/SoulMossBlockOnBoneMealSuccessProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Natural"
+    },
+    {
+      "name": "SoulShrub",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_shrub",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/neoforge/biome_modifier/soul_shrub_biome_modifier.json",
+          "src/main/java/net/syndred/syndred/block/SoulShrubBlock.java",
+          "src/main/resources/data/syndred/loot_table/blocks/soul_shrub.json",
+          "src/main/resources/assets/syndred/models/item/soul_shrub.json",
+          "src/main/resources/assets/syndred/items/soul_shrub.json",
+          "src/main/resources/data/syndred/worldgen/placed_feature/soul_shrub.json",
+          "src/main/resources/data/syndred/worldgen/configured_feature/soul_shrub.json",
+          "src/main/resources/assets/syndred/models/block/soul_shrub.json",
+          "src/main/resources/assets/syndred/blockstates/soul_shrub.json"
+        ]
+      },
+      "path": "~/Blocks/Natural"
+    },
+    {
+      "name": "SoulShrubSeed",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_shrub_seed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/syndred/syndred/item/SoulShrubSeedItem.java",
+          "src/main/resources/assets/syndred/items/soul_shrub_seed.json",
+          "src/main/resources/assets/syndred/models/item/soul_shrub_seed.json"
+        ]
+      },
+      "path": "~/Items/Misc"
+    },
+    {
+      "name": "SoulShrubSeedRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_shrub_seed_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/syndred/syndred/procedures/SoulShrubSeedRightclickedOnBlockProcedure.java"
+        ]
+      },
+      "path": "~/Items/Misc"
+    },
+    {
+      "name": "ChargerPlantMobplayerCollidesWithPlant",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charger_plant_mobplayer_collides_with_plant",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/syndred/syndred/procedures/ChargerPlantMobplayerCollidesWithPlantProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Natural"
+    },
+    {
+      "name": "ChargerPlant",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charger_plant",
+      "metadata": {
+        "files": [
+          "src/main/java/net/syndred/syndred/block/ChargerPlantBlock.java",
+          "src/main/resources/data/syndred/loot_table/blocks/charger_plant.json",
+          "src/main/resources/data/syndred/worldgen/configured_feature/charger_plant.json",
+          "src/main/resources/assets/syndred/items/charger_plant.json",
+          "src/main/resources/assets/syndred/models/block/charger_plant.json",
+          "src/main/resources/data/syndred/neoforge/biome_modifier/charger_plant_biome_modifier.json",
+          "src/main/resources/assets/syndred/models/item/charger_plant.json",
+          "src/main/resources/data/syndred/worldgen/placed_feature/charger_plant.json",
+          "src/main/resources/assets/syndred/blockstates/charger_plant.json"
+        ]
+      },
+      "path": "~/Blocks/Natural"
+    },
+    {
+      "name": "SoulMossCarpet",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_moss_carpet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/syndred/blockstates/soul_moss_carpet.json",
+          "src/main/resources/assets/syndred/items/soul_moss_carpet.json",
+          "src/main/resources/assets/syndred/models/block/soul_moss_carpet.json",
+          "src/main/resources/assets/syndred/models/item/soul_moss_carpet.json",
+          "src/main/resources/data/syndred/loot_table/blocks/soul_moss_carpet.json",
+          "src/main/java/net/syndred/syndred/block/SoulMossCarpetBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Natural"
+    },
+    {
+      "name": "SoulMossCarpetOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_moss_carpet_on_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/syndred/syndred/procedures/SoulMossCarpetOnTickUpdateProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Natural"
+    },
+    {
+      "name": "SoulMossCarpetFeature",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_moss_carpet_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/syndred/worldgen/configured_feature/soul_moss_carpet_feature.json"
+        ]
+      },
+      "path": "~/FeaturesAndStructures"
     }
   ],
   "variable_elements": [],
@@ -3019,6 +3252,8 @@
       "~CUSTOM:SoulshireSapling"
     ],
     "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:SoulMossCarpet",
+      "~CUSTOM:SoulMossBlock",
       "~CUSTOM:SoulshireVinesEndFruiting",
       "~CUSTOM:SoulshireVinesFruiting",
       "~CUSTOM:SoulshireVinesEnd",
@@ -3118,6 +3353,9 @@
     ],
     "BLOCKS:minecraft:wooden_fences": [
       "~CUSTOM:SoulshireFence"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:ChargerPlant"
     ]
   },
   "tab_element_order": {},
@@ -3211,13 +3449,18 @@
       "item.syndred.midnight_axe": "Midnight Axe",
       "item.syndred.soulsteel_shovel": "Soulsteel Shovel",
       "item.syndred.soulshire_stairs": "Soulshire Stairs",
-      "item.syndred.soulshire_slab": "Soulshire Stairs",
-      "item.syndred.soulshire_door": "Soulshire Stairs",
-      "item.syndred.soulshire_button": "Soulshire Stairs",
-      "item.syndred.soulshire_pressure_plate": "Soulshire Stairs",
-      "item.syndred.soulshire_fence_gate": "Soulshire Stairs",
-      "item.syndred.soulshire_fence": "Soulshire Stairs",
-      "item.syndred.soulshire_trapdoor": "Soulshire Stairs"
+      "item.syndred.soulshire_slab": "Soulshire Slab",
+      "item.syndred.soulshire_door": "Soulshire Door",
+      "item.syndred.soulshire_button": "Soulshire Button",
+      "item.syndred.soulshire_pressure_plate": "Soulshire Pressure Plate",
+      "item.syndred.soulshire_fence_gate": "Soulshire Fence Gate",
+      "item.syndred.soulshire_fence": "Soulshire Fence",
+      "item.syndred.soulshire_trapdoor": "Soulshire Trapdoor",
+      "item.syndred.soul_moss_block": "Soul Moss Block",
+      "item.syndred.soul_shrub": "Soul Shrub",
+      "item.syndred.soul_shrub_seed": "Soul Shrub Seed",
+      "item.syndred.charger_plant": "Charger Plant",
+      "item.syndred.soul_moss_carpet": "Soul Moss Carpet"
     }
   },
   "metadata": {
